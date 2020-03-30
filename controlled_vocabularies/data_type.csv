@@ -1,0 +1,5 @@
+data_type, description
+cases_new, new confirmed Covid-19 cases during that time interval
+cases_total, cummulative confirmed Covid-19 cases up to that time interval
+deaths_new, new deaths during that time interval
+deaths_total, cummulative deaths due to Covid-19 up to that time interval

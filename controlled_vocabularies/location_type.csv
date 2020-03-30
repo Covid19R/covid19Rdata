@@ -1,0 +1,6 @@
+location_type, description
+continent, continental scale
+country, a country with soverign borders
+state, "a spatial area inside that country such as a state, province, canton, etc."
+county, a spatial area demarcated within a state
+city, a single municipality - the smallest spatial grain of government in a country
