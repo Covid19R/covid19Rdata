@@ -35,7 +35,11 @@ packages <- read_csv("./data/packages.csv")
 # as failing. Do not update the data. Do not change the last updated date. 
 # Note failure in error log.
 
-# Test the data (testhat?) for standard conditions. If it fails, file an issue/email 
+# Test the data (testhat?) for standard conditions.
+# column names
+# controlled vocabulary
+# others?
+# If it fails, file an issue/email 
 # package author if not already done. Note as failing. Do not update data. Output to error log
 
 # Otherwise, if it succeeds, overwrite the data with refreshed data, mark it as passing, 
