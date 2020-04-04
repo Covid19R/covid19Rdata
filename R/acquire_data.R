@@ -13,14 +13,17 @@ library(purrr)
 source("./R/refresh_data.R")
 source("./R/get_package_info.R")
 
+#constants
+current_time <- snakecase::to_snake_case(Sys.time() %>% as.character)
+
 # Load the list of packages queried
 packages <- read_csv("./data/packages.csv",
                      col_types = "c") %>%
   bind_rows(tibble(package = "dplyr"))
 
 # Start an error log
-errors <- tibble(package = character(), 
-                 dataset = character(), 
+errors <- tibble(package_name = character(), 
+                 data_set_name = character(), 
                  error = character())
 
 
@@ -44,8 +47,8 @@ errors_in_getinfo <- map_dbl(data_info, ~sum(class(.) %in% "try-error"))
 
 #add to error log
 errors <- imap_dfr(data_info[which(errors_in_getinfo>0)], 
-    ~ tibble(package = .y, 
-             dataset="",
+    ~ tibble(package_name = .y, 
+             data_set_name="",
              error = .x[1])) %>% 
   bind_rows(errors, .)
 
@@ -61,16 +64,23 @@ valid_packages <- data_info[-which(errors_in_getinfo>0)] %>%
 
 refresh_status <- map_df(transpose(valid_packages), refresh_data)
 
+data_info <- data_info %>%
+  left_join(refresh_status %>% 
+              filter(refresh_status=="Passed") %>%
+              select(data_set_name, refresh_status, last_update))
+
 # If refresh fails, file an issue/email the package author if it was not already flagged
 # as failing. Do not update the data. Do not change the last updated date. 
 # Note failure in error log.
+failed <- refresh_status %>% filter(refresh_status=="Failed")
+if(nrow(failed) >0){
+  errors <- bind_rows(errors,
+                      failed %>% select(package_name, data_set_name, error))
+  
+}
 
-# Test the data (testhat?) for standard conditions.
-# column names
-# controlled vocabulary
-# others?
-# If it fails, file an issue/email 
-# package author if not already done. Note as failing. Do not update data. Output to error log
+# Write out data_info table and error log
+write_csv(data_info, "./data/covid19R_data_info.csv")
 
-# Otherwise, if it succeeds, overwrite the data with refreshed data, mark it as passing, 
-# and provide the current date as the last date updated. Note version of package used.
+write_csv(errors, glue("./logs/error_log_{current_time}.csv"))
+
