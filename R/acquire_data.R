@@ -18,8 +18,7 @@ current_time <- snakecase::to_snake_case(Sys.time() %>% as.character)
 
 # Load the list of packages queried
 packages <- read_csv("./data/packages.csv",
-                     col_types = "c") %>%
-  bind_rows(tibble(package = "dplyr"))
+                     col_types = "c") 
 
 # Start an error log
 errors <- tibble(package_name = character(), 
@@ -28,7 +27,7 @@ errors <- tibble(package_name = character(),
 
 
 # Load the past table of datasets and info from previous get_info
-
+past_data_info <- read_csv("./data/covid19R_data_info.csv")
 
 # Check to see if any packages in the old data table are not going to be queried. 
 # Kick out an error if anything is not queried that was there previously into 
@@ -46,11 +45,15 @@ names(data_info) <- packages$package
 errors_in_getinfo <- map_dbl(data_info, ~sum(class(.) %in% "try-error"))
 
 #add to error log
-errors <- imap_dfr(data_info[which(errors_in_getinfo>0)], 
-    ~ tibble(package_name = .y, 
-             data_set_name="",
-             error = .x[1])) %>% 
-  bind_rows(errors, .)
+if(sum(errors_in_getinfo)>0){
+  errors <- imap_dfr(data_info[which(errors_in_getinfo > 0)],
+                     ~ tibble(
+                       package_name = .y,
+                       data_set_name = "",
+                       error = .x[1]
+                     )) %>%
+    bind_rows(errors, .)
+}
 
 
 # If get_info doesn't fail, add it to the new dataset info output table with a flag of 
