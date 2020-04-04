@@ -9,6 +9,10 @@ library(dplyr)
 library(glue)
 library(purrr)
 
+#load helper functions
+source("./R/refresh_data.R")
+source("./R/get_package_info.R")
+
 # Load the list of packages queried
 packages <- read_csv("./data/packages.csv",
                      col_types = "c") %>%
@@ -21,6 +25,12 @@ errors <- tibble(package = character(),
 
 
 # Load the past table of datasets and info from previous get_info
+
+
+# Check to see if any packages in the old data table are not going to be queried. 
+# Kick out an error if anything is not queried that was there previously into 
+# error log.
+
 
 # Query each package for info on datasets present using get_info methods
 # Where get_package_info returns the results of a try()
@@ -46,11 +56,10 @@ valid_packages <- data_info[-which(errors_in_getinfo>0)] %>%
   bind_rows() %>%
   mutate(get_info_passing = TRUE)
 
-# Check to see if any packages in the old data table have not been queried. Kick out 
-# an error if anything is not queried that was there previously into error log.
+# With the new dataset table, use the info to refresh_* each dataset from the 
+# appropriate package.
 
-# With the new dataset table, use the info to refresh_* each dataset from the appropriate 
-# package.
+refresh_status <- map_df(transpose(valid_packages), refresh_data)
 
 # If refresh fails, file an issue/email the package author if it was not already flagged
 # as failing. Do not update the data. Do not change the last updated date. 
