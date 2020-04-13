@@ -82,8 +82,10 @@ if(nrow(failed) >0){
   
 }
 
-# Write out data_info table and error log
+# Write out data_info table
 write_csv(data_info, "./data/covid19R_data_info.csv")
 
-write_csv(errors, glue("./logs/error_log_{current_time}.csv"))
-
+#if needed, write out the error log and notify the maintainer
+if(nrow(errors)>0){
+  write_csv(errors, glue("./logs/error_log_{current_time}.csv"))
+}
