@@ -6,8 +6,8 @@ recovered_new, new number of patients recovered on the current date
 deaths_new, new deaths on the current date
 deaths_total, cumulative deaths due to Covid-19 as of the current date
 tested_total, cumulative number of tests performed as of the date
-hosp_new - new hospitalizations on the current date
-hosp_current - current number of hospitalized patients as of the current date
-icu_current - number of hospitalized patients in ICUs as of the current date
+hosp_new, new hospitalizations on the current date
+hosp_current, current number of hospitalized patients as of the current date
+icu_current, number of hospitalized patients in ICUs as of the current date
 vent_current, number of hospitalized patients requiring ventilation as of the current date
 
