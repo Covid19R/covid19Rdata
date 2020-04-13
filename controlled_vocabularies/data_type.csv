@@ -1,5 +1,13 @@
 data_type, description
-cases_new, new confirmed Covid-19 cases during that time interval
-cases_total, cummulative confirmed Covid-19 cases up to that time interval
-deaths_new, new deaths during that time interval
-deaths_total, cummulative deaths due to Covid-19 up to that time interval
+cases_new, new confirmed Covid-19 cases during on the current date
+cases_total, cumulative confirmed Covid-19 cases as of the current date
+recovered_total, cumulative number of patients recovered as of the current date
+recovered_new, new number of patients recovered on the current date
+deaths_new, new deaths on the current date
+deaths_total, cumulative deaths due to Covid-19 as of the current date
+tested_total, cumulative number of tests performed as of the date
+hosp_new - new hospitalizations on the current date
+hosp_current - current number of hospitalized patients as of the current date
+icu_current - number of hospitalized patients in ICUs as of the current date
+vent_current, number of hospitalized patients requiring ventilation as of the current date
+
