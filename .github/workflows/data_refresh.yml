@@ -1,0 +1,33 @@
+name: Data Refresh
+
+on: [push]
+  #schedule:
+  #  - cron:  '0 */6 * * *'
+jobs:
+  build:
+    name: Data refresh
+    runs-on: macOS-latest
+    steps:
+      - name: checkout_repo
+        uses: actions/checkout@v2
+      - name: set_R
+        uses: r-lib/actions/setup-r@master
+        with:
+          repository: ${{ github.repository }}
+          ref: 'master'
+          token: ${{ github.token }}
+          clean: 'true'
+          fetch-depth: '1'
+      - name: Install dependencies
+        run: Rscript -e "install.packages(c('readr', 'tibble', 'dplyr', 'purrr', 'glue'))"
+      - name: Refresh the data
+        run: Rscript ./R/acquire_data.R
+      - name: Push updates
+        if: success()
+        run: |
+          if [[ "$(git status --porcelain)" != "" ]]; then
+              git config --global user.name 'RamiKrispin'
+              git config --global user.email 'ramkrisp@umich.edu'
+              git commit -am "Update the data"
+              git push
+          fi
