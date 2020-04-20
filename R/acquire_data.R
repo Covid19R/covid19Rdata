@@ -32,7 +32,7 @@ errors <- tibble(
 )
 
 
-# Check to see if any packages in the old data table are not going to be queried.
+# TODO Check to see if any packages in the old data table are not going to be queried.
 # Kick out an error if anything is not queried that was there previously into
 # error log.
 
