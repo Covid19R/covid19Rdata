@@ -9,6 +9,9 @@ library(dplyr)
 library(glue)
 library(purrr)
 
+#set the WD to the project directory
+setwd(here::here())
+
 #load helper functions
 source("./R/refresh_data.R")
 source("./R/get_package_info.R")
@@ -26,9 +29,6 @@ errors <- tibble(package_name = character(),
                  error = character())
 
 
-# Load the past table of datasets and info from previous get_info
-past_data_info <- read_csv("./data/covid19R_data_info.csv")
-
 # Check to see if any packages in the old data table are not going to be queried. 
 # Kick out an error if anything is not queried that was there previously into 
 # error log.
@@ -39,7 +39,8 @@ past_data_info <- read_csv("./data/covid19R_data_info.csv")
 data_info <- map(packages$package, get_package_info)
 names(data_info) <- packages$package
 
-# If any get_info fails, email the package author/file a github issue if it was not already failing. 
+# If any get_info fails, email the package author/file a github issue if it was 
+# not already failing. 
 # Add a flag of no info and use past info for the new dataset info table. 
 # Add to the error log.
 errors_in_getinfo <- map_dbl(data_info, ~sum(class(.) %in% "try-error"))
@@ -53,6 +54,8 @@ if(sum(errors_in_getinfo)>0){
                        error = .x[1]
                      )) %>%
     bind_rows(errors, .)
+  
+  
 }
 
 
@@ -64,10 +67,9 @@ valid_packages <- data_info[-which(errors_in_getinfo>0)] %>%
 
 # With the new dataset table, use the info to refresh_* each dataset from the 
 # appropriate package.
-
 refresh_status <- map_df(transpose(valid_packages), refresh_data)
 
-data_info <- data_info %>%
+data_info <- valid_packages %>%
   left_join(refresh_status %>% 
               filter(refresh_status=="Passed") %>%
               select(data_set_name, refresh_status, last_update))
@@ -82,10 +84,17 @@ if(nrow(failed) >0){
   
 }
 
+
+#TODO - add old info for failed packages ####
+# Load the past table of datasets and info from previous get_info
+past_data_info <- read_csv("./data/covid19R_data_info.csv")
+
+
 # Write out data_info table
 write_csv(data_info, "./data/covid19R_data_info.csv")
 
 #if needed, write out the error log and notify the maintainer
+#maybe use https://rpremraj.github.io/mailR/
 if(nrow(errors)>0){
   write_csv(errors, glue("./logs/error_log_{current_time}.csv"))
 }
