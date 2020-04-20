@@ -20,11 +20,15 @@ jobs:
           fetch-depth: '1'
       - name: Install dependencies
         run: Rscript -e "install.packages(c('readr', 'tibble', 'dplyr', 'purrr', 'glue', 'snakecase'))"
+      - name: Install devtools
+        run: Rscript -e "install.packages(c('devtools'))
+      - name: Install Github packages
+        run: Rscript -e "devtools::install_github("Covid19R/covid19france")"
       - name: Refresh the data
         run: Rscript ./R/acquire_data.R
       - name: Push updates
         if: success()
-        run: |
+        run: 
           if [[ "$(git status --porcelain)" != "" ]]; then
               git config --global user.name 'RamiKrispin'
               git config --global user.email 'ramkrisp@umich.edu'
