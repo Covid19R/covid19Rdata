@@ -9,9 +9,6 @@ library(dplyr)
 library(glue)
 library(purrr)
 
-# set the WD to the project directory
-setwd(here::here())
-
 # load helper functions
 source("./R/refresh_data.R")
 source("./R/get_package_info.R")
