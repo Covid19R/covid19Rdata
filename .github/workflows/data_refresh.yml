@@ -19,7 +19,7 @@ jobs:
           clean: 'true'
           fetch-depth: '1'
       - name: Install dependencies
-        run: Rscript -e "install.packages(c('readr', 'tibble', 'dplyr', 'purrr', 'glue'))"
+        run: Rscript -e "install.packages(c('readr', 'tibble', 'dplyr', 'purrr', 'glue', 'snakecase'))"
       - name: Refresh the data
         run: Rscript ./R/acquire_data.R
       - name: Push updates
