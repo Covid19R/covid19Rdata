@@ -28,7 +28,7 @@ jobs:
         run: Rscript ./R/acquire_data.R
       - name: Push updates
         if: success()
-        run: 
+        run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
               git config --global user.name 'RamiKrispin'
               git config --global user.email 'ramkrisp@umich.edu'
