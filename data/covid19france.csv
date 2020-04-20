@@ -1,4 +1,4 @@
-date,location,location_type,location_standardized,location_standardized_type,data_type,value
+date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-20,Ain,county,DEP-01,department,confirmed,NA
 2020-04-20,Ain,county,DEP-01,department,dead,62
 2020-04-20,Ain,county,DEP-01,department,icu,22
