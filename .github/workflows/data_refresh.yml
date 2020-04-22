@@ -19,7 +19,7 @@ jobs:
           clean: 'true'
           fetch-depth: '1'
       - name: Install dependencies
-        run: Rscript -e "install.packages(c('readr', 'tibble', 'dplyr', 'purrr', 'glue', 'snakecase'))"
+        run: Rscript -e "install.packages(c('readr', 'tibble', 'dplyr', 'tidyr', 'purrr', 'glue', 'snakecase', 'lubridate', 'magrittr', 'stringr'))"
       - name: Install devtools
         run: Rscript -e "install.packages(c('devtools'))"
       - name: Install Github packages
