@@ -2490,7 +2490,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-03-30,Maryland,state,24,fips_code,cases_total,1414
 2020-03-30,Maryland,state,24,fips_code,deaths_total,15
 2020-03-30,Massachusetts,state,25,fips_code,cases_total,5752
-2020-03-30,Massachusetts,state,25,fips_code,deaths_total,61
+2020-03-30,Massachusetts,state,25,fips_code,deaths_total,56
 2020-03-30,Michigan,state,26,fips_code,cases_total,6508
 2020-03-30,Michigan,state,26,fips_code,deaths_total,197
 2020-03-30,Minnesota,state,27,fips_code,cases_total,576
@@ -3252,7 +3252,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-03-23,Maryland,state,24,fips_code,cases_total,290
 2020-03-23,Maryland,state,24,fips_code,deaths_total,3
 2020-03-23,Massachusetts,state,25,fips_code,cases_total,777
-2020-03-23,Massachusetts,state,25,fips_code,deaths_total,5
+2020-03-23,Massachusetts,state,25,fips_code,deaths_total,9
 2020-03-23,Michigan,state,26,fips_code,cases_total,1324
 2020-03-23,Michigan,state,26,fips_code,deaths_total,16
 2020-03-23,Minnesota,state,27,fips_code,cases_total,235
