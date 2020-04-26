@@ -9,6 +9,8 @@ library(dplyr)
 library(glue)
 library(purrr)
 
+conflicted::conflict_prefer("filter", "dplyr")
+
 # load helper functions
 source("./R/refresh_data.R")
 source("./R/get_package_info.R")
@@ -56,9 +58,9 @@ if (sum(errors_in_getinfo) > 0) {
     )
   ) %>%
     bind_rows(errors, .)
-  
-  #eleminate from data info
-  data_info <- data_info[-which(errors_in_getinfo > 0)] 
+
+  # eleminate from data info
+  data_info <- data_info[-which(errors_in_getinfo > 0)]
 }
 
 
