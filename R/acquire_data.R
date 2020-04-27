@@ -9,16 +9,19 @@ library(dplyr)
 library(glue)
 library(purrr)
 
+conflicted::conflict_prefer("filter", "dplyr")
+
 # load helper functions
 source("./R/refresh_data.R")
 source("./R/get_package_info.R")
+source("./R/col_names.R")
 
 # constants
 current_time <- snakecase::to_snake_case(Sys.time() %>% as.character())
 
 # Load the list of packages queried
 packages <- read_csv("./data/packages.csv",
-  col_types = "c"
+  col_types = "cc"
 )
 
 # Start an error log
@@ -56,9 +59,9 @@ if (sum(errors_in_getinfo) > 0) {
     )
   ) %>%
     bind_rows(errors, .)
-  
-  #eleminate from data info
-  data_info <- data_info[-which(errors_in_getinfo > 0)] 
+
+  # eleminate from data info
+  data_info <- data_info[-which(errors_in_getinfo > 0)]
 }
 
 
