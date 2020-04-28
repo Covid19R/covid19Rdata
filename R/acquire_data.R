@@ -64,7 +64,11 @@ acquire_data <- function(verbose = TRUE) {
 
   # With the new dataset table, use the info to refresh_* each dataset from the
   # appropriate package.
-  refresh_status <- purrr::map_df(purrr::transpose(valid_packages), refresh_data)
+  refresh_status <- purrr::map_df(
+    purrr::transpose(valid_packages), 
+    refresh_data, 
+    verbose = verbose
+  )
 
   data_info <- valid_packages %>%
     dplyr::left_join(

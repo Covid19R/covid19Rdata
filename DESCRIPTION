@@ -16,6 +16,7 @@ Description: A refresher of COVID-19 R data.
 License: MIT + file LICENSE
 Imports:
     dplyr,
+    fs,
     gh,
     glue,
     lubridate,
