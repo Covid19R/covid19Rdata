@@ -1,12 +1,20 @@
-refresh_data <- function(one_dataset) {
+refresh_data <- function(one_dataset, verbose = TRUE) {
   # get what we need to fetch the dataset
   data_set_name <- one_dataset$data_set_name
   package_name <- one_dataset$package_name
+  
+  if (verbose) {
+    message(
+      glue::glue("\nRefreshing {package_name}.\n")
+    )
+  }
 
   current_time <- lubridate::now()
 
   # build the call
   run <- glue::glue("{package_name}::refresh_{data_set_name}()")
+  
+  browser()
 
   dat <- try(eval(parse(text = run)))
 
@@ -28,9 +36,8 @@ refresh_data <- function(one_dataset) {
     missing <-
       missing_col_names %>%
       stringr::str_c(collapse = "\n")
-    
-    suppress
-    packages <- readr::read_csv("data/packages.csv")
+
+    packages <- readr::read_csv("data/packages.csv", col_types = "cc")
 
     username <- packages %>%
       dplyr::filter(
@@ -40,7 +47,7 @@ refresh_data <- function(one_dataset) {
       dplyr::pull(username)
 
     issue_creator_usernames <- c("aedobbyn", "jebyrnes", "RamiKrispin")
-    
+
     # If running locally, use GitHub PAT which is used when .token is null
     if (!exists("token")) token <- NULL
 
@@ -49,21 +56,21 @@ refresh_data <- function(one_dataset) {
       glue::glue("POST /repos/{username}/{package_name}/issues"),
       username = sample(issue_creator_usernames, 1),
       title = "Change in source data: some column names missing",
-      body = glue::glue("The following names were missing in the {current_time} refresh of {one_dataset$package_name}:\n\n```{missing}```") %>%
-        as.character(),
+      body = glue::glue("The following names were missing in the `{current_time}` refresh of `{one_dataset$package_name}`:\n\n```\n{missing}\n```"),
       .token = token
     )
-    
-    error <- glue::glue("Missing cols: {missing}")
+
+    error <- glue::glue("Missing cols: {missing_col_names %>% stringr::str_c(collapse = ', ')}")
   }
 
-  if (sum(class(dat) == "try-error") == 0) {
-    
-    if (!exists("error")) error <- dat[1]
-    
-    current_time <- lubridate::now() %>% as.character() %>% snakecase::to_snake_case()
-    
-    out <- 
+  if (sum(class(dat) == "try-error") > 0) {
+    if (!exists("error")) error <- attributes(x)$condition
+
+    current_time <- lubridate::now() %>%
+      as.character() %>%
+      snakecase::to_snake_case()
+
+    out <-
       tibble::tibble(
         package_name = package_name,
         data_set_name = data_set_name,
@@ -72,13 +79,13 @@ refresh_data <- function(one_dataset) {
         last_refresh_update = lubridate::now(),
         error = error
       )
-    
+
     readr::write_csv(
-      out, 
-      glue::glue("./logs/error_log_{current_time}.csv"), 
+      out,
+      glue::glue("./logs/error_log_{current_time}.csv"),
       append = TRUE
     )
-    
+
     return(out)
   }
 

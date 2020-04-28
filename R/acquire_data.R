@@ -1,7 +1,7 @@
 #' Get newest data from all packages and log any errors
 #'
 #' Uses \code{/data/packages.csv} CSV to try the package's \code{get_info} function as well as its \code{refresh} function to get the most up to date data.
-#' 
+#'
 #' @param verbose Should messages be logged?
 #'
 #' @return New data in the \code{data} dir.
@@ -12,14 +12,16 @@
 #' acquire_data
 #' }
 acquire_data <- function(verbose = TRUE) {
-  current_time <- lubridate::now() %>% as.character() %>% snakecase::to_snake_case()
+  current_time <- lubridate::now() %>%
+    as.character() %>%
+    snakecase::to_snake_case()
 
   # Load the list of packages queried
   packages <- readr::read_csv(
     "./data/packages.csv",
     col_types = "cc"
   )
-  
+
   if (verbose) {
     message(
       glue::glue("Refreshing packages:\n\n{packages$package %>% stringr::str_c(collapse = '\n')}")
@@ -76,31 +78,35 @@ acquire_data <- function(verbose = TRUE) {
   # Note failure in error log.
   failed <- refresh_status %>%
     dplyr::filter(refresh_status == "Failed")
-  
+
   if (nrow(failed) > 0) {
     errors <- dplyr::bind_rows(
       errors,
       failed %>%
         dplyr::select(package_name, data_set_name, error)
     )
-    
+
     if (verbose) {
       message(
         glue::glue("Error refreshing the following packages:\n\n{errors$package_name %>% stringr::str_c(collapse = '\n')}")
       )
     }
-    
+
     readr::write_csv(
-      errors, 
-      glue::glue("./logs/error_log_{current_time}.csv"), 
+      errors,
+      glue::glue("./logs/error_log_{current_time}.csv"),
       append = TRUE
     )
+  } else {
+    if (verbose) {
+      message("Successfully refreshed all packages.")
+    }
   }
 
   # Add old info for failed packages ####
   # Load the past table of datasets and info from previous get_info
   past_data_info <- read_csv("./data/covid19R_data_info.csv")
-  
+
   if (sum(errors_in_getinfo) > 0) {
     bad_pkg <- names(errors_in_getinfo)
 

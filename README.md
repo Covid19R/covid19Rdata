@@ -1,9 +1,24 @@
-# covid19R_data
 
-To update with a new package
+# covid19R\_data
 
-1. Add the package to `data/packages.csv'  
-2. Add package dependencies to `.github/workflows/data_refresh.yml` in the `Install dependencies` part.  
-3. Add the package installation to `R/cron_job_dependencies.R`  
-4. Run the `R/acquire_data.R` and make sure it works.  
-5. Commit, push, and make sure the github action works.  
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+This is the data aggregator package for the `covid19R` project.
+
+## Installation
+
+You can install the development version from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("Covid19R/covid19R_data")
+```
+
+## Run
+
+``` r
+covid19R_data::acquire_data()
+```

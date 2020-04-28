@@ -1,0 +1,35 @@
+---
+output: github_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# covid19R_data
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This is the data aggregator package for the `covid19R` project.
+
+## Installation
+
+You can install the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("Covid19R/covid19R_data")
+```
+
+## Run
+
+```{r, eval=FALSE}
+covid19R_data::acquire_data()
+```
+
