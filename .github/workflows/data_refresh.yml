@@ -23,9 +23,11 @@ jobs:
       - name: Install devtools
         run: Rscript -e "install.packages(c('devtools'))"
       - name: Install Github packages
-        run: Rscript ./R/cron_job_dependencies.R
+        run: Rscript ./cron/cron_job_dependencies.R
       - name: Refresh the data
         run: Rscript ./R/acquire_data.R
+        env:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Push updates
         if: success()
         run: |
