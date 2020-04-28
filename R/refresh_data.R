@@ -37,7 +37,7 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
       missing_col_names %>%
       stringr::str_c(collapse = "\n")
 
-    packages <- readr::read_csv("data/packages.csv", col_types = "cc")
+    packages <- readr::read_csv("data-raw/packages.csv", col_types = "cc")
 
     username <- packages %>%
       dplyr::filter(
@@ -92,7 +92,7 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
   # write the dataset if there is no error
   # and return that everything worked. Otherwise
   # return the error
-  readr::write_csv(dat, glue::glue("./data/{data_set_name}.csv"))
+  readr::write_csv(dat, glue::glue("./data-raw/{data_set_name}.csv"))
 
   tibble::tibble(
     package_name = package_name,

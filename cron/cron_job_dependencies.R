@@ -1,6 +1,6 @@
 # Required covid19 packages
 args <-
-  readr::read_csv("data/packages.csv", col_types = "cc") %>%
+  readr::read_csv("data-raw/packages.csv", col_types = "cc") %>%
   dplyr::mutate(
     arg = glue::glue("{username}/{package}")
   ) %>%

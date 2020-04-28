@@ -1,4 +1,4 @@
-Package: covid19R_data
+Package: covid19Rdata
 Title: Data aggregator for covid19R
 Version: 0.1.0
 Authors@R: c(

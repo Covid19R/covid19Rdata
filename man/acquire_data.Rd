@@ -13,7 +13,7 @@ acquire_data(verbose = TRUE)
 New data in the \code{data} dir.
 }
 \description{
-Uses \code{/data/packages.csv} CSV to try the package's \code{get_info} function as well as its \code{refresh} function to get the most up to date data.
+Uses \code{/data-raw/packages.csv} CSV to try the package's \code{get_info} function as well as its \code{refresh} function to get the most up to date data.
 }
 \examples{
 \donttest{

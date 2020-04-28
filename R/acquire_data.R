@@ -1,6 +1,6 @@
 #' Get newest data from all packages and log any errors
 #'
-#' Uses \code{/data/packages.csv} CSV to try the package's \code{get_info} function as well as its \code{refresh} function to get the most up to date data.
+#' Uses \code{/data-raw/packages.csv} CSV to try the package's \code{get_info} function as well as its \code{refresh} function to get the most up to date data.
 #'
 #' @param verbose Should messages be logged?
 #'
@@ -18,7 +18,7 @@ acquire_data <- function(verbose = TRUE) {
 
   # Load the list of packages queried
   packages <- readr::read_csv(
-    "./data/packages.csv",
+    "./data-raw/packages.csv",
     col_types = "cc"
   )
 
@@ -109,7 +109,7 @@ acquire_data <- function(verbose = TRUE) {
 
   # Add old info for failed packages ####
   # Load the past table of datasets and info from previous get_info
-  past_data_info <- readr::read_csv("./data/covid19R_data_info.csv")
+  past_data_info <- readr::read_csv("./data-raw/covid19R_data_info.csv")
 
   if (sum(errors_in_getinfo) > 0) {
     bad_pkg <- names(errors_in_getinfo)
@@ -123,7 +123,7 @@ acquire_data <- function(verbose = TRUE) {
   }
 
   # Write out data_info table
-  info_fl <- "data/covid19R_data_info.csv"
+  info_fl <- "data-raw/covid19R_data_info.csv"
   if (!fs::file_exists(info_fl)) fs::file_create(info_fl)
   
   readr::write_csv(data_info, info_fl)
