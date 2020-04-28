@@ -4,7 +4,10 @@
 \alias{acquire_data}
 \title{Get newest data from all packages and log any errors}
 \usage{
-acquire_data()
+acquire_data(verbose = TRUE)
+}
+\arguments{
+\item{verbose}{Should messages be logged?}
 }
 \value{
 New data in the \code{data} dir.
