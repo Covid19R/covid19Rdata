@@ -1,9 +1,7 @@
-get_package_info <- function(a_package) {
-
+get_package_info <- function(pkg) {
+  
   # make the call for the package
-  runme <- glue("{a_package}::get_info_{a_package}()")
-
-  new_info <- try(eval(parse(text = runme)))
-
-  new_info
+  run <- glue::glue("{pkg}::get_info_{pkg}()")
+  
+  try(eval(parse(text = run)))
 }
