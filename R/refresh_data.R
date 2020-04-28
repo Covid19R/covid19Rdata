@@ -5,7 +5,7 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
   
   if (verbose) {
     message(
-      glue::glue("\nRefreshing {package_name}.\n")
+      glue::glue("\nRefreshing {data_set_name}.\n")
     )
   }
 
@@ -13,11 +13,11 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
 
   # build the call
   run <- glue::glue("{package_name}::refresh_{data_set_name}()")
+
+  suppressMessages(
+    dat <- try(eval(parse(text = run)))
+  )
   
-  browser()
-
-  dat <- try(eval(parse(text = run)))
-
   #### NOTE - this testing bit needs to be worked out - currently
   #### just make sure there isn't a try-error
   # Test the data sets (testhat?) for standard conditions.

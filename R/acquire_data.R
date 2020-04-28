@@ -70,7 +70,7 @@ acquire_data <- function(verbose = TRUE) {
     dplyr::left_join(
       refresh_status %>%
         dplyr::filter(refresh_status == "Passed") %>%
-        dplyr::select(data_set_name, refresh_status, last_update)
+        dplyr::select(data_set_name, refresh_status, last_refresh_update)
     )
 
   # If refresh fails, file an issue/email the package author if it was not already flagged
@@ -105,7 +105,7 @@ acquire_data <- function(verbose = TRUE) {
 
   # Add old info for failed packages ####
   # Load the past table of datasets and info from previous get_info
-  past_data_info <- read_csv("./data/covid19R_data_info.csv")
+  past_data_info <- readr::read_csv("./data/covid19R_data_info.csv")
 
   if (sum(errors_in_getinfo) > 0) {
     bad_pkg <- names(errors_in_getinfo)
@@ -119,5 +119,8 @@ acquire_data <- function(verbose = TRUE) {
   }
 
   # Write out data_info table
-  readr::write_csv(data_info, "./data/covid19R_data_info.csv")
+  info_fl <- "data/covid19R_data_info.csv"
+  if (!fs::file_exists(info_fl)) fs::file_create(info_fl)
+  
+  readr::write_csv(data_info, info_fl)
 }
