@@ -1,8 +1,8 @@
 name: Data Refresh
 
-on:
-  schedule:
-    - cron:  '0 */6 * * *'
+on: [push]
+  #schedule:
+  #  - cron:  '0 */6 * * *'
 jobs:
   build:
     name: Data refresh
@@ -14,18 +14,20 @@ jobs:
         uses: r-lib/actions/setup-r@master
         with:
           repository: ${{ github.repository }}
-          ref: 'master'
+          ref: 'pkg'
           token: ${{ github.token }}
           clean: 'true'
           fetch-depth: '1'
       - name: Install dependencies
-        run: Rscript -e "install.packages(c('readr', 'tibble', 'dplyr', 'tidyr', 'purrr', 'glue', 'snakecase', 'lubridate', 'magrittr', 'stringr'))"
-      - name: Install devtools
+        #run: Rscript -e "install.packages(c('readr', 'tibble', 'dplyr', 'tidyr', 'purrr', 'glue', 'snakecase', 'lubridate', 'magrittr', 'stringr'))"
+      #- name: Install devtools
         run: Rscript -e "install.packages(c('devtools'))"
+      - name: Install Github packages
+        run: Rscript -e "devtools::install_github('Covid19R/covid19R_data', ref = "pkg)"
       - name: Install Github packages
         run: Rscript ./R/cron_job_dependencies.R
       - name: Refresh the data
-        run: Rscript ./R/acquire_data.R
+        run: Rscript -e "covid19R_data::acquire_data"
       - name: Push updates
         if: success()
         run: |
