@@ -14,7 +14,7 @@ jobs:
         uses: r-lib/actions/setup-r@master
         with:
           repository: ${{ github.repository }}
-          ref: 'pkg'
+          ref: 'rami-dev'
           token: ${{ github.token }}
           clean: 'true'
           fetch-depth: '1'
@@ -25,7 +25,7 @@ jobs:
       - name: Install Github packages
         run: Rscript -e "devtools::install_github('Covid19R/covid19Rdata', ref = 'pkg')"
       - name: Install Github packages
-        run: Rscript ./R/cron_job_dependencies.R
+        run: Rscript ./cron/cron_job_dependencies.R
       - name: Refresh the data
         run: Rscript -e "covid19Rdata::acquire_data()"
     #  - name: Push updates
