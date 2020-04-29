@@ -28,12 +28,12 @@ jobs:
         run: Rscript ./R/cron_job_dependencies.R
       - name: Refresh the data
         run: Rscript -e "covid19R_data::acquire_data"
-      - name: Push updates
-        if: success()
-        run: |
-          if [[ "$(git status --porcelain)" != "" ]]; then
-              git config --global user.name 'RamiKrispin'
-              git config --global user.email 'ramkrisp@umich.edu'
-              git commit -am "Update the data"
-              git push
-          fi
+    #  - name: Push updates
+    #    if: success()
+    #    run: |
+    #      if [[ "$(git status --porcelain)" != "" ]]; then
+    #          git config --global user.name 'RamiKrispin'
+    #          git config --global user.email 'ramkrisp@umich.edu'
+    #          git commit -am "Update the data"
+    #          git push
+    #      fi
