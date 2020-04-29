@@ -27,7 +27,7 @@ jobs:
       - name: Install Github packages
         run: Rscript ./R/cron_job_dependencies.R
       - name: Refresh the data
-        run: Rscript -e "covid19R_data::acquire_data()"
+        run: Rscript -e "covid19Rdata::acquire_data()"
     #  - name: Push updates
     #    if: success()
     #    run: |
