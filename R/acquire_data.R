@@ -43,7 +43,7 @@ acquire_data <- function(verbose = TRUE) {
   if (sum(errors_in_getinfo) > 0) {
     errors <- purrr::imap_dfr(
       data_info[which(errors_in_getinfo > 0)],
-      ~ tibble(
+      ~ dplyr::tibble(
         package_name = .y,
         data_set_name = "",
         error = .x[1],
