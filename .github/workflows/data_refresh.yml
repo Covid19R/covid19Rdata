@@ -11,7 +11,7 @@ jobs:
       - name: checkout_repo
         uses: actions/checkout@v2
       - name: set_R
-        uses: r-lib/actions/setup-r@master
+        uses: r-lib/actions/setup-r@rami-dev
         with:
           repository: ${{ github.repository }}
           ref: 'rami-dev'
@@ -23,7 +23,7 @@ jobs:
       - name: Install devtools
         run: Rscript -e "install.packages(c('devtools'))"
       - name: Install Github packages
-        run: Rscript -e "devtools::install_github('Covid19R/covid19Rdata', ref = 'pkg')"
+        run: Rscript -e "devtools::install_github('Covid19R/covid19Rdata', ref = 'rami-dev')"
       - name: Install Github packages
         run: Rscript ./cron/cron_job_dependencies.R
       - name: Refresh the data
