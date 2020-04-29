@@ -11,7 +11,7 @@ jobs:
       - name: checkout_repo
         uses: actions/checkout@v2
       - name: set_R
-        uses: r-lib/actions/setup-r@rami-dev
+        uses: r-lib/actions/setup-r@master
         with:
           repository: ${{ github.repository }}
           ref: 'rami-dev'
