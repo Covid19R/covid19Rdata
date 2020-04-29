@@ -18,7 +18,7 @@ acquire_data <- function(verbose = TRUE) {
 
   # Load the list of packages queried
   packages <- readr::read_csv(
-    "./data-raw/packages.csv",
+    paste(here::here(), "/data-raw/packages.csv", sep = ""),
     col_types = "cc"
   )
 
@@ -30,7 +30,7 @@ acquire_data <- function(verbose = TRUE) {
 
   # Query each package for info on datasets present using get_info methods
   # Where get_package_info returns the results of a try()
-  data_info <- purrr::map(packages$package, get_package_info)
+  data_info <- purrr::map(packages$package, covid19Rdata:::get_package_info)
   names(data_info) <- packages$package
 
   # If any get_info fails, email the package author/file a github issue if it was
