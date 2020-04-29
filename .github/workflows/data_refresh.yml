@@ -23,7 +23,7 @@ jobs:
       - name: Install devtools
         run: Rscript -e "install.packages(c('devtools'))"
       - name: Install Github packages
-        run: Rscript -e "devtools::install_github('Covid19R/covid19R_data', ref = "pkg)"
+        run: Rscript -e "devtools::install_github('Covid19R/covid19R_data', ref = 'pkg')"
       - name: Install Github packages
         run: Rscript ./R/cron_job_dependencies.R
       - name: Refresh the data
