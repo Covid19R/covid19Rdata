@@ -28,7 +28,7 @@ jobs:
         run: Rscript -e "covid19Rdata:::install_depend()"
       - name: Refresh the data
         run: Rscript -e "covid19Rdata::acquire_data()"
-    #  - name: Push updates
+    #  - name: Push updates 
     #    if: success()
     #    run: |
     #      if [[ "$(git status --porcelain)" != "" ]]; then
