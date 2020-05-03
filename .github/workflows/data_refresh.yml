@@ -1,8 +1,11 @@
 name: Data Refresh
 
 on:
-  schedule:
-    - cron:  '0 * * * *'
+  push:
+    branches:
+      - rami-dev
+ # schedule:
+ #   - cron:  '0 * * * *'
 jobs:
   build:
     name: Data refresh 
