@@ -1,7 +1,4 @@
 refresh_data <- function(one_dataset, verbose = TRUE) {
-  
-  package <- x <- NULL
-  
   # get what we need to fetch the dataset
   data_set_name <- one_dataset$data_set_name
   package_name <- one_dataset$package_name
