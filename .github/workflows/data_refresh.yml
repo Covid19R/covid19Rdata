@@ -2,11 +2,11 @@ name: Data Refresh
 
 on:
   schedule:
-    - cron:  '0 */6 * * *'
+    - cron:  '0 * * * *'
 jobs:
   build:
     name: Data refresh
-    runs-on: macOS-latest
+    runs-on: macOS-latest 
     steps:
       - name: checkout_repo
         uses: actions/checkout@v2
@@ -14,26 +14,24 @@ jobs:
         uses: r-lib/actions/setup-r@master
         with:
           repository: ${{ github.repository }}
-          ref: 'master'
+          ref: 'rami-dev'
           token: ${{ github.token }}
           clean: 'true'
           fetch-depth: '1'
-      - name: Install dependencies
-        run: Rscript -e "install.packages(c('readr', 'tibble', 'dplyr', 'tidyr', 'purrr', 'glue', 'snakecase', 'lubridate', 'magrittr', 'stringr'))"
       - name: Install devtools
-        run: Rscript -e "install.packages(c('devtools'))"
+        run: Rscript -e "install.packages(c('devtools', 'usethis'))" 
       - name: Install Github packages
-        run: Rscript ./cron/cron_job_dependencies.R
-      - name: Refresh the data
-        run: Rscript ./R/acquire_data.R
-        env:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Push updates
+        run: Rscript -e "devtools::install_github('Covid19R/covid19Rdata', ref = 'rami-dev')"
+      - name: Install Github packages dependencies
+        run: Rscript -e "covid19Rdata:::install_depend()"
+      - name: Refresh the data 
+        run: Rscript -e "covid19Rdata::acquire_data()" 
+      - name: Push updates 
         if: success()
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
               git config --global user.name 'RamiKrispin'
               git config --global user.email 'ramkrisp@umich.edu'
-              git commit -am "Update the data"
+              git commit -am "Auto-update"
               git push
           fi
