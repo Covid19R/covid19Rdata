@@ -12,8 +12,7 @@
 #' acquire_data
 #' }
 acquire_data <- function(verbose = TRUE) {
-  library(devtools)
-  library(snakecase)
+
   data_set_name <- last_refresh_update <- package_name <- 
     error <- arg <- package <- x <- `.` <- NULL
   
