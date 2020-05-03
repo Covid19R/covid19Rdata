@@ -98,6 +98,10 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
   # readr::write_csv(dat, glue::glue("./data-raw/{data_set_name}.csv"))
   print(getwd())
   print(dir())
+  if(!dir.exists("data-raw")){
+    dir.create("data-raw")
+  }
+  print(dir())
   write.csv(dat, paste("data-raw/", data_set_name, ".csv", sep = ""))
 
   tibble::tibble(
