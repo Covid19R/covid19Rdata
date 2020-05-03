@@ -18,7 +18,10 @@ acquire_data <- function(verbose = TRUE) {
     snakecase::to_snake_case()
   
   # Load the list of packages queried
-  packages <- utils::read.csv("data-raw/packages.csv", stringsAsFactors = F)
+  packages <- readr::read_csv(
+    "data-raw/packages.csv",
+    col_types = "cc"
+  )
   
   if (verbose) {
     message(
@@ -107,7 +110,7 @@ acquire_data <- function(verbose = TRUE) {
   
   # Add old info for failed packages ####
   # Load the past table of datasets and info from previous get_info
-  past_data_info <- utils::read.csv("data-raw/covid19R_data_info.csv")
+  past_data_info <- readr::read_csv("data-raw/covid19R_data_info.csv")
   
   if (sum(errors_in_getinfo) > 0) {
     bad_pkg <- names(errors_in_getinfo)
@@ -124,6 +127,5 @@ acquire_data <- function(verbose = TRUE) {
   info_fl <- "data-raw/covid19R_data_info.csv"
   if (!fs::file_exists(info_fl)) fs::file_create(info_fl)
   
-  # readr::write_csv(data_info, info_fl)
-  utils::write.csv(data_info, "data-raw/covid19R_data_info.csv", row.names = FALSE)
+  readr::write_csv(data_info, info_fl)
 }
