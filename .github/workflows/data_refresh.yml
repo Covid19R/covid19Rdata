@@ -21,7 +21,7 @@ jobs:
       #- name: Install dependencies  
         #run: Rscript -e "install.packages(c('readr', 'tibble', 'dplyr', 'tidyr', 'purrr', 'glue', 'snakecase', 'lubridate', 'magrittr', 'stringr'))"
       - name: Install devtools
-        run: Rscript -e "install.packages(c('devtools', 'remotes'))"  -e "remotes::install_deps(dependencies = TRUE)"
+        run: Rscript -e "install.packages(c('devtools', 'usethis' ,'remotes'))"  -e "remotes::install_deps(dependencies = TRUE)"
       #- name: Install Github packages
       #  run: Rscript -e "devtools::install_github('Covid19R/covid19Rdata', ref = 'rami-dev')"
       - name: Install Github packages dependencies
