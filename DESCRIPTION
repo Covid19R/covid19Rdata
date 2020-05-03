@@ -20,6 +20,7 @@ Description: A refresher of COVID-19 R data.
 License: MIT + file LICENSE
 Imports:
     dplyr,
+    devtools,
     fs,
     gh,
     glue,
@@ -28,6 +29,7 @@ Imports:
     magrittr,
     purrr,
     readr,
+    snakecase,
     stringr,
     tibble
 Suggests: 
