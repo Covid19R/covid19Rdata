@@ -4,3 +4,4 @@
 ^\.Rproj\.user$
 ^controlled_vocabularies$
 ^data-raw$
+^.github$
