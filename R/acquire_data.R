@@ -126,9 +126,9 @@ acquire_data <- function(verbose = TRUE) {
   }
   
   # Write out data_info table
-  # info_fl <- "data-raw/covid19R_data_info.csv"
-  # if (!fs::file_exists(info_fl)) fs::file_create(info_fl)
+  info_fl <- "data-raw/covid19R_data_info.csv"
+  if (!fs::file_exists(info_fl)) fs::file_create(info_fl)
   
-  # readr::write_csv(data_info, info_fl)
-  write.csv(data_info, "data-raw/covid19R_data_info.csv", row.names = FALSE)
+  readr::write_csv(data_info, info_fl)
+  # write.csv(data_info, "data-raw/covid19R_data_info.csv", row.names = FALSE)
 }
