@@ -12,10 +12,6 @@
 #' acquire_data
 #' }
 acquire_data <- function(verbose = TRUE) {
-
-  data_set_name <- last_refresh_update <- package_name <- 
-    error <- arg <- package <- x <- `.` <- NULL
-  
   
   current_time <- lubridate::now() %>%
     as.character() %>%
