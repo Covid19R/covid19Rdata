@@ -2,7 +2,7 @@ name: Data Refresh
 
 on: [push]
   #schedule:
-  #  - cron:  '0 */6 * * *'
+   # - cron:  '0 * * * *'
 jobs:
   build:
     name: Data refresh
@@ -19,19 +19,19 @@ jobs:
           clean: 'true'
           fetch-depth: '1'
       - name: Install devtools
-        run: Rscript -e "install.packages(c('devtools', 'usethis' ,'remotes'))" -e "remotes::install_deps(dependencies = TRUE)"
+        run: Rscript -e "install.packages(c('devtools', 'usethis'))" 
       - name: Install Github packages
         run: Rscript -e "devtools::install_github('Covid19R/covid19Rdata', ref = 'rami-dev')"
       - name: Install Github packages dependencies
         run: Rscript -e "covid19Rdata:::install_depend()"
       - name: Refresh the data 
         run: Rscript -e "covid19Rdata::acquire_data()" 
-    #  - name: Push updates 
-    #    if: success()
-    #    run: |
-    #      if [[ "$(git status --porcelain)" != "" ]]; then
-    #          git config --global user.name 'RamiKrispin'
-    #          git config --global user.email 'ramkrisp@umich.edu'
-    #          git commit -am "Update the data"
-    #          git push
-    #      fi
+      - name: Push updates 
+        if: success()
+        run: |
+          if [[ "$(git status --porcelain)" != "" ]]; then
+              git config --global user.name 'RamiKrispin'
+              git config --global user.email 'ramkrisp@umich.edu'
+              git commit -am "Auto-update"
+              git push
+          fi
