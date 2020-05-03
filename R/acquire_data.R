@@ -12,6 +12,11 @@
 #' acquire_data
 #' }
 acquire_data <- function(verbose = TRUE) {
+  
+  data_set_name <- last_refresh_update <- package_name <- 
+    error <- arg <- package <- x <- NULL
+  
+  
   current_time <- lubridate::now() %>%
     as.character() %>%
     snakecase::to_snake_case()
@@ -30,7 +35,7 @@ acquire_data <- function(verbose = TRUE) {
   
   # Query each package for info on datasets present using get_info methods
   # Where get_package_info returns the results of a try()
-  data_info <- purrr::map(packages$package, covid19Rdata:::get_package_info)
+  data_info <- purrr::map(packages$package, get_package_info)
   names(data_info) <- packages$package
   
   # If any get_info fails, email the package author/file a github issue if it was

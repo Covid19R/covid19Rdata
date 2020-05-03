@@ -1,5 +1,8 @@
 # Required covid19 packages
 get_depend <- function(verbose = TRUE){
+  
+  arg <- NULL
+  
   if(verbose) {
     message("Installing the supporting packages")
   }
