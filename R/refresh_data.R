@@ -96,12 +96,11 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
   # and return that everything worked. Otherwise
   # return the error
   # readr::write_csv(dat, glue::glue("./data-raw/{data_set_name}.csv"))
-  print(getwd())
-  print(dir())
-  if(!dir.exists("data-raw")){
-    dir.create("data-raw")
-  }
-  print(dir())
+
+  # print(dir())
+  # if(!dir.exists("data-raw")){
+  #   dir.create("data-raw")
+  # }
   write.csv(dat, paste("data-raw/", data_set_name, ".csv", sep = ""))
 
   tibble::tibble(
