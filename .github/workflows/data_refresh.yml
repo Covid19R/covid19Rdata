@@ -18,8 +18,8 @@ jobs:
           token: ${{ github.token }}
           clean: 'true'
           fetch-depth: '1'
-      - name: tree
-        run: tree
+      - name: checkout
+        run: git checkout rami-dev
       - name: Install devtools
         run: Rscript -e "install.packages(c('devtools', 'usethis' ,'remotes'))" -e "remotes::install_deps(dependencies = TRUE)"
       - name: Install Github packages
