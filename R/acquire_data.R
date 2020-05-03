@@ -19,7 +19,7 @@ acquire_data <- function(verbose = TRUE) {
   
   # Load the list of packages queried
   packages <- readr::read_csv(
-    "data-raw/packages.csv",
+    "https://raw.githubusercontent.com/Covid19R/covid19Rdata/master/data-raw/packages.csv",
     col_types = "cc"
   )
   
