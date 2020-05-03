@@ -20,8 +20,8 @@ jobs:
           fetch-depth: '1'
       - name: Install devtools
         run: Rscript -e "install.packages(c('devtools', 'usethis' ,'remotes'))" -e "remotes::install_deps(dependencies = TRUE)"
-      - name: Install Github packages
-        run: Rscript -e "devtools::install_github('Covid19R/covid19Rdata', ref = 'rami-dev')"
+     # - name: Install Github packages
+     #   run: Rscript -e "devtools::install_github('Covid19R/covid19Rdata', ref = 'rami-dev')"
       - name: Install Github packages dependencies
         run: Rscript -e "covid19Rdata:::install_depend()"
       - name: Refresh the data 
