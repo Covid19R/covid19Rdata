@@ -1,0 +1,11 @@
+globalVariables(
+  c("package",
+    "x",
+    "data_set_name",
+    "last_refresh_update",
+    "package_name",
+    "error",
+    "arg",
+    "package",
+    "."
+  ))

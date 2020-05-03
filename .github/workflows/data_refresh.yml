@@ -1,11 +1,14 @@
 name: Data Refresh
 
-on: [push]
-  #schedule:
-   # - cron:  '0 * * * *'
+on:
+  push:
+    branches:
+      - rami-dev
+ # schedule:
+ #   - cron:  '0 * * * *'
 jobs:
   build:
-    name: Data refresh
+    name: Data refresh 
     runs-on: macOS-latest 
     steps:
       - name: checkout_repo
