@@ -97,7 +97,7 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
   # return the error
   # readr::write_csv(dat, glue::glue("./data-raw/{data_set_name}.csv"))
 
-  # print(dir())
+  print(dir())
   # if(!dir.exists("data-raw")){
   #   dir.create("data-raw")
   # }
