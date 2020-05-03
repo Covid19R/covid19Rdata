@@ -14,7 +14,7 @@ jobs:
         uses: r-lib/actions/setup-r@master
         with:
           repository: ${{ github.repository }}
-          ref: rami-dev
+          ref: 'rami-dev'
           token: ${{ github.token }}
           clean: 'true'
           fetch-depth: '1'
