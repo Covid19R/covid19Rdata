@@ -6,7 +6,7 @@ on: [push]
 jobs:
   build:
     name: Data refresh
-    runs-on: macOS-latest
+    runs-on: macOS-latest 
     steps:
       - name: checkout_repo
         uses: actions/checkout@v2
