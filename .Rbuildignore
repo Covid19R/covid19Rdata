@@ -5,3 +5,4 @@
 ^controlled_vocabularies$
 ^.github$
 ^data-raw$
+^docs$
