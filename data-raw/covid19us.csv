@@ -931,7 +931,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-12,UT,state,49,fips_code,positive_increase,70
 2020-05-12,UT,state,49,fips_code,total_test_results_increase,2900
 2020-05-12,VA,state,51,fips_code,positive,25800
-2020-05-12,VA,state,51,fips_code,negative,146638
+2020-05-12,VA,state,51,fips_code,negative,129529
 2020-05-12,VA,state,51,fips_code,pending,447
 2020-05-12,VA,state,51,fips_code,hospitalized_currently,1529
 2020-05-12,VA,state,51,fips_code,hospitalized_cumulative,4929
@@ -942,13 +942,13 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-12,VA,state,51,fips_code,recovered,3400
 2020-05-12,VA,state,51,fips_code,death,891
 2020-05-12,VA,state,51,fips_code,hospitalized,4929
-2020-05-12,VA,state,51,fips_code,total,172885
-2020-05-12,VA,state,51,fips_code,total_test_results,172438
+2020-05-12,VA,state,51,fips_code,total,155776
+2020-05-12,VA,state,51,fips_code,total_test_results,155329
 2020-05-12,VA,state,51,fips_code,death_increase,41
 2020-05-12,VA,state,51,fips_code,hospitalized_increase,152
-2020-05-12,VA,state,51,fips_code,negative_increase,21091
+2020-05-12,VA,state,51,fips_code,negative_increase,3982
 2020-05-12,VA,state,51,fips_code,positive_increase,730
-2020-05-12,VA,state,51,fips_code,total_test_results_increase,21821
+2020-05-12,VA,state,51,fips_code,total_test_results_increase,4712
 2020-05-12,VI,state,78,fips_code,positive,69
 2020-05-12,VI,state,78,fips_code,negative,1115
 2020-05-12,VI,state,78,fips_code,pending,58
