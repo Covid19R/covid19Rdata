@@ -175,9 +175,9 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-13,DE,state,10,fips_code,pending,NA
 2020-05-13,DE,state,10,fips_code,hospitalized_currently,282
 2020-05-13,DE,state,10,fips_code,hospitalized_cumulative,NA
-2020-05-13,DE,state,10,fips_code,in_icu_currently,467
+2020-05-13,DE,state,10,fips_code,in_icu_currently,NA
 2020-05-13,DE,state,10,fips_code,in_icu_cumulative,NA
-2020-05-13,DE,state,10,fips_code,on_ventilator_currently,263
+2020-05-13,DE,state,10,fips_code,on_ventilator_currently,NA
 2020-05-13,DE,state,10,fips_code,on_ventilator_cumulative,NA
 2020-05-13,DE,state,10,fips_code,recovered,2942
 2020-05-13,DE,state,10,fips_code,death,247
@@ -906,11 +906,11 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-13,TX,state,48,fips_code,hospitalized,NA
 2020-05-13,TX,state,48,fips_code,total,587431
 2020-05-13,TX,state,48,fips_code,total_test_results,587431
-2020-05-13,TX,state,48,fips_code,death_increase,58
+2020-05-13,TX,state,48,fips_code,death_increase,25
 2020-05-13,TX,state,48,fips_code,hospitalized_increase,0
-2020-05-13,TX,state,48,fips_code,negative_increase,59200
-2020-05-13,TX,state,48,fips_code,positive_increase,2534
-2020-05-13,TX,state,48,fips_code,total_test_results_increase,61734
+2020-05-13,TX,state,48,fips_code,negative_increase,47904
+2020-05-13,TX,state,48,fips_code,positive_increase,1355
+2020-05-13,TX,state,48,fips_code,total_test_results_increase,49259
 2020-05-13,UT,state,49,fips_code,positive,6620
 2020-05-13,UT,state,49,fips_code,negative,150166
 2020-05-13,UT,state,49,fips_code,pending,NA
@@ -1239,9 +1239,9 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-12,DE,state,10,fips_code,pending,NA
 2020-05-12,DE,state,10,fips_code,hospitalized_currently,276
 2020-05-12,DE,state,10,fips_code,hospitalized_cumulative,NA
-2020-05-12,DE,state,10,fips_code,in_icu_currently,467
+2020-05-12,DE,state,10,fips_code,in_icu_currently,NA
 2020-05-12,DE,state,10,fips_code,in_icu_cumulative,NA
-2020-05-12,DE,state,10,fips_code,on_ventilator_currently,263
+2020-05-12,DE,state,10,fips_code,on_ventilator_currently,NA
 2020-05-12,DE,state,10,fips_code,on_ventilator_cumulative,NA
 2020-05-12,DE,state,10,fips_code,recovered,2802
 2020-05-12,DE,state,10,fips_code,death,237
@@ -1547,7 +1547,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-12,MN,state,27,fips_code,in_icu_cumulative,625
 2020-05-12,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-05-12,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-05-12,MN,state,27,fips_code,recovered,NA
+2020-05-12,MN,state,27,fips_code,recovered,7609
 2020-05-12,MN,state,27,fips_code,death,614
 2020-05-12,MN,state,27,fips_code,hospitalized,1799
 2020-05-12,MN,state,27,fips_code,total,120834
@@ -1956,8 +1956,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-12,TN,state,47,fips_code,negative_increase,9980
 2020-05-12,TN,state,47,fips_code,positive_increase,567
 2020-05-12,TN,state,47,fips_code,total_test_results_increase,10547
-2020-05-12,TX,state,48,fips_code,positive,39869
-2020-05-12,TX,state,48,fips_code,negative,485828
+2020-05-12,TX,state,48,fips_code,positive,41048
+2020-05-12,TX,state,48,fips_code,negative,497124
 2020-05-12,TX,state,48,fips_code,pending,NA
 2020-05-12,TX,state,48,fips_code,hospitalized_currently,1725
 2020-05-12,TX,state,48,fips_code,hospitalized_cumulative,NA
@@ -1965,16 +1965,16 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-12,TX,state,48,fips_code,in_icu_cumulative,NA
 2020-05-12,TX,state,48,fips_code,on_ventilator_currently,NA
 2020-05-12,TX,state,48,fips_code,on_ventilator_cumulative,NA
-2020-05-12,TX,state,48,fips_code,recovered,21713
-2020-05-12,TX,state,48,fips_code,death,1100
+2020-05-12,TX,state,48,fips_code,recovered,22674
+2020-05-12,TX,state,48,fips_code,death,1133
 2020-05-12,TX,state,48,fips_code,hospitalized,NA
-2020-05-12,TX,state,48,fips_code,total,525697
-2020-05-12,TX,state,48,fips_code,total_test_results,525697
-2020-05-12,TX,state,48,fips_code,death_increase,0
+2020-05-12,TX,state,48,fips_code,total,538172
+2020-05-12,TX,state,48,fips_code,total_test_results,538172
+2020-05-12,TX,state,48,fips_code,death_increase,33
 2020-05-12,TX,state,48,fips_code,hospitalized_increase,0
-2020-05-12,TX,state,48,fips_code,negative_increase,0
-2020-05-12,TX,state,48,fips_code,positive_increase,0
-2020-05-12,TX,state,48,fips_code,total_test_results_increase,0
+2020-05-12,TX,state,48,fips_code,negative_increase,11296
+2020-05-12,TX,state,48,fips_code,positive_increase,1179
+2020-05-12,TX,state,48,fips_code,total_test_results_increase,12475
 2020-05-12,UT,state,49,fips_code,positive,6432
 2020-05-12,UT,state,49,fips_code,negative,147053
 2020-05-12,UT,state,49,fips_code,pending,NA
@@ -2611,7 +2611,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-11,MN,state,27,fips_code,in_icu_cumulative,600
 2020-05-11,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-05-11,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-05-11,MN,state,27,fips_code,recovered,7536
+2020-05-11,MN,state,27,fips_code,recovered,6945
 2020-05-11,MN,state,27,fips_code,death,591
 2020-05-11,MN,state,27,fips_code,hospitalized,1716
 2020-05-11,MN,state,27,fips_code,total,115781
@@ -3675,7 +3675,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-10,MN,state,27,fips_code,in_icu_cumulative,581
 2020-05-10,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-05-10,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-05-10,MN,state,27,fips_code,recovered,6882
+2020-05-10,MN,state,27,fips_code,recovered,6304
 2020-05-10,MN,state,27,fips_code,death,578
 2020-05-10,MN,state,27,fips_code,hospitalized,1657
 2020-05-10,MN,state,27,fips_code,total,111088
@@ -4739,7 +4739,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-09,MN,state,27,fips_code,in_icu_cumulative,556
 2020-05-09,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-05-09,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-05-09,MN,state,27,fips_code,recovered,6322
+2020-05-09,MN,state,27,fips_code,recovered,5764
 2020-05-09,MN,state,27,fips_code,death,558
 2020-05-09,MN,state,27,fips_code,hospitalized,1612
 2020-05-09,MN,state,27,fips_code,total,106263
@@ -5803,7 +5803,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-08,MN,state,27,fips_code,in_icu_cumulative,540
 2020-05-08,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-05-08,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-05-08,MN,state,27,fips_code,recovered,5697
+2020-05-08,MN,state,27,fips_code,recovered,5163
 2020-05-08,MN,state,27,fips_code,death,534
 2020-05-08,MN,state,27,fips_code,hospitalized,1549
 2020-05-08,MN,state,27,fips_code,total,101270
@@ -6867,7 +6867,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-07,MN,state,27,fips_code,in_icu_cumulative,512
 2020-05-07,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-05-07,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-05-07,MN,state,27,fips_code,recovered,5308
+2020-05-07,MN,state,27,fips_code,recovered,4800
 2020-05-07,MN,state,27,fips_code,death,508
 2020-05-07,MN,state,27,fips_code,hospitalized,1459
 2020-05-07,MN,state,27,fips_code,total,97421
@@ -7931,7 +7931,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-06,MN,state,27,fips_code,in_icu_cumulative,488
 2020-05-06,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-05-06,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-05-06,MN,state,27,fips_code,recovered,5005
+2020-05-06,MN,state,27,fips_code,recovered,4520
 2020-05-06,MN,state,27,fips_code,death,485
 2020-05-06,MN,state,27,fips_code,hospitalized,1405
 2020-05-06,MN,state,27,fips_code,total,93232
@@ -8995,7 +8995,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-05,MN,state,27,fips_code,in_icu_cumulative,475
 2020-05-05,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-05-05,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-05-05,MN,state,27,fips_code,recovered,4614
+2020-05-05,MN,state,27,fips_code,recovered,4159
 2020-05-05,MN,state,27,fips_code,death,455
 2020-05-05,MN,state,27,fips_code,hospitalized,1350
 2020-05-05,MN,state,27,fips_code,total,88009
@@ -10059,7 +10059,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-04,MN,state,27,fips_code,in_icu_cumulative,444
 2020-05-04,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-05-04,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-05-04,MN,state,27,fips_code,recovered,4212
+2020-05-04,MN,state,27,fips_code,recovered,3784
 2020-05-04,MN,state,27,fips_code,death,428
 2020-05-04,MN,state,27,fips_code,hospitalized,1271
 2020-05-04,MN,state,27,fips_code,total,85941
@@ -11123,7 +11123,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-03,MN,state,27,fips_code,in_icu_cumulative,426
 2020-05-03,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-05-03,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-05-03,MN,state,27,fips_code,recovered,3015
+2020-05-03,MN,state,27,fips_code,recovered,2596
 2020-05-03,MN,state,27,fips_code,death,419
 2020-05-03,MN,state,27,fips_code,hospitalized,1199
 2020-05-03,MN,state,27,fips_code,total,82632
@@ -12187,7 +12187,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-02,MN,state,27,fips_code,in_icu_cumulative,404
 2020-05-02,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-05-02,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-05-02,MN,state,27,fips_code,recovered,2397
+2020-05-02,MN,state,27,fips_code,recovered,2002
 2020-05-02,MN,state,27,fips_code,death,395
 2020-05-02,MN,state,27,fips_code,hospitalized,1159
 2020-05-02,MN,state,27,fips_code,total,79007
@@ -13251,7 +13251,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-01,MN,state,27,fips_code,in_icu_cumulative,380
 2020-05-01,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-05-01,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-05-01,MN,state,27,fips_code,recovered,2282
+2020-05-01,MN,state,27,fips_code,recovered,1911
 2020-05-01,MN,state,27,fips_code,death,371
 2020-05-01,MN,state,27,fips_code,hospitalized,1096
 2020-05-01,MN,state,27,fips_code,total,74829
@@ -14315,7 +14315,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-30,MN,state,27,fips_code,in_icu_cumulative,358
 2020-04-30,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-30,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-30,MN,state,27,fips_code,recovered,2172
+2020-04-30,MN,state,27,fips_code,recovered,1829
 2020-04-30,MN,state,27,fips_code,death,343
 2020-04-30,MN,state,27,fips_code,hospitalized,1044
 2020-04-30,MN,state,27,fips_code,total,70276
@@ -15379,7 +15379,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-29,MN,state,27,fips_code,in_icu_cumulative,337
 2020-04-29,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-29,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-29,MN,state,27,fips_code,recovered,2043
+2020-04-29,MN,state,27,fips_code,recovered,1724
 2020-04-29,MN,state,27,fips_code,death,319
 2020-04-29,MN,state,27,fips_code,hospitalized,950
 2020-04-29,MN,state,27,fips_code,total,66744
@@ -16443,7 +16443,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-28,MN,state,27,fips_code,in_icu_cumulative,324
 2020-04-28,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-28,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-28,MN,state,27,fips_code,recovered,1912
+2020-04-28,MN,state,27,fips_code,recovered,1611
 2020-04-28,MN,state,27,fips_code,death,301
 2020-04-28,MN,state,27,fips_code,hospitalized,912
 2020-04-28,MN,state,27,fips_code,total,63829
@@ -17507,7 +17507,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-27,MN,state,27,fips_code,in_icu_cumulative,316
 2020-04-27,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-27,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-27,MN,state,27,fips_code,recovered,1842
+2020-04-27,MN,state,27,fips_code,recovered,1556
 2020-04-27,MN,state,27,fips_code,death,286
 2020-04-27,MN,state,27,fips_code,hospitalized,861
 2020-04-27,MN,state,27,fips_code,total,61268
@@ -18571,7 +18571,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-26,MN,state,27,fips_code,in_icu_cumulative,301
 2020-04-26,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-26,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-26,MN,state,27,fips_code,recovered,1774
+2020-04-26,MN,state,27,fips_code,recovered,1502
 2020-04-26,MN,state,27,fips_code,death,272
 2020-04-26,MN,state,27,fips_code,hospitalized,829
 2020-04-26,MN,state,27,fips_code,total,58987
@@ -19635,7 +19635,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-25,MN,state,27,fips_code,in_icu_cumulative,291
 2020-04-25,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-25,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-25,MN,state,27,fips_code,recovered,1654
+2020-04-25,MN,state,27,fips_code,recovered,1410
 2020-04-25,MN,state,27,fips_code,death,244
 2020-04-25,MN,state,27,fips_code,hospitalized,797
 2020-04-25,MN,state,27,fips_code,total,56597
@@ -20699,7 +20699,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-24,MN,state,27,fips_code,in_icu_cumulative,281
 2020-04-24,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-24,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-24,MN,state,27,fips_code,recovered,1594
+2020-04-24,MN,state,27,fips_code,recovered,1373
 2020-04-24,MN,state,27,fips_code,death,221
 2020-04-24,MN,state,27,fips_code,hospitalized,756
 2020-04-24,MN,state,27,fips_code,total,53787
@@ -21763,7 +21763,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-23,MN,state,27,fips_code,in_icu_cumulative,274
 2020-04-23,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-23,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-23,MN,state,27,fips_code,recovered,1536
+2020-04-23,MN,state,27,fips_code,recovered,1336
 2020-04-23,MN,state,27,fips_code,death,200
 2020-04-23,MN,state,27,fips_code,hospitalized,712
 2020-04-23,MN,state,27,fips_code,total,51548
@@ -22827,7 +22827,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-22,MN,state,27,fips_code,in_icu_cumulative,262
 2020-04-22,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-22,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-22,MN,state,27,fips_code,recovered,1317
+2020-04-22,MN,state,27,fips_code,recovered,1138
 2020-04-22,MN,state,27,fips_code,death,179
 2020-04-22,MN,state,27,fips_code,hospitalized,660
 2020-04-22,MN,state,27,fips_code,total,49344
@@ -23891,7 +23891,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-21,MN,state,27,fips_code,in_icu_cumulative,253
 2020-04-21,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-21,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-21,MN,state,27,fips_code,recovered,1254
+2020-04-21,MN,state,27,fips_code,recovered,1094
 2020-04-21,MN,state,27,fips_code,death,160
 2020-04-21,MN,state,27,fips_code,hospitalized,629
 2020-04-21,MN,state,27,fips_code,total,47697
@@ -24955,7 +24955,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-20,MN,state,27,fips_code,in_icu_cumulative,241
 2020-04-20,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-20,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-20,MN,state,27,fips_code,recovered,1202
+2020-04-20,MN,state,27,fips_code,recovered,1059
 2020-04-20,MN,state,27,fips_code,death,143
 2020-04-20,MN,state,27,fips_code,hospitalized,602
 2020-04-20,MN,state,27,fips_code,total,46850
@@ -26019,7 +26019,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-19,MN,state,27,fips_code,in_icu_cumulative,226
 2020-04-19,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-19,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-19,MN,state,27,fips_code,recovered,1160
+2020-04-19,MN,state,27,fips_code,recovered,1026
 2020-04-19,MN,state,27,fips_code,death,134
 2020-04-19,MN,state,27,fips_code,hospitalized,574
 2020-04-19,MN,state,27,fips_code,total,45716
@@ -27083,7 +27083,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-18,MN,state,27,fips_code,in_icu_cumulative,215
 2020-04-18,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-18,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-18,MN,state,27,fips_code,recovered,1118
+2020-04-18,MN,state,27,fips_code,recovered,997
 2020-04-18,MN,state,27,fips_code,death,121
 2020-04-18,MN,state,27,fips_code,hospitalized,561
 2020-04-18,MN,state,27,fips_code,total,44268
@@ -28147,7 +28147,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-17,MN,state,27,fips_code,in_icu_cumulative,202
 2020-04-17,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-17,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-17,MN,state,27,fips_code,recovered,1066
+2020-04-17,MN,state,27,fips_code,recovered,955
 2020-04-17,MN,state,27,fips_code,death,111
 2020-04-17,MN,state,27,fips_code,hospitalized,518
 2020-04-17,MN,state,27,fips_code,total,43053
@@ -29211,7 +29211,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-16,MN,state,27,fips_code,in_icu_cumulative,188
 2020-04-16,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-16,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-16,MN,state,27,fips_code,recovered,1020
+2020-04-16,MN,state,27,fips_code,recovered,926
 2020-04-16,MN,state,27,fips_code,death,94
 2020-04-16,MN,state,27,fips_code,hospitalized,475
 2020-04-16,MN,state,27,fips_code,total,41675
@@ -30275,7 +30275,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-15,MN,state,27,fips_code,in_icu_cumulative,175
 2020-04-15,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-15,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-15,MN,state,27,fips_code,recovered,940
+2020-04-15,MN,state,27,fips_code,recovered,853
 2020-04-15,MN,state,27,fips_code,death,87
 2020-04-15,MN,state,27,fips_code,hospitalized,445
 2020-04-15,MN,state,27,fips_code,total,40242
@@ -31339,7 +31339,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-14,MN,state,27,fips_code,in_icu_cumulative,155
 2020-04-14,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-14,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-14,MN,state,27,fips_code,recovered,909
+2020-04-14,MN,state,27,fips_code,recovered,830
 2020-04-14,MN,state,27,fips_code,death,79
 2020-04-14,MN,state,27,fips_code,hospitalized,405
 2020-04-14,MN,state,27,fips_code,total,39241
@@ -32403,7 +32403,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-13,MN,state,27,fips_code,in_icu_cumulative,146
 2020-04-13,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-13,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-13,MN,state,27,fips_code,recovered,842
+2020-04-13,MN,state,27,fips_code,recovered,772
 2020-04-13,MN,state,27,fips_code,death,70
 2020-04-13,MN,state,27,fips_code,hospitalized,361
 2020-04-13,MN,state,27,fips_code,total,38427
@@ -33467,7 +33467,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-12,MN,state,27,fips_code,in_icu_cumulative,146
 2020-04-12,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-12,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-12,MN,state,27,fips_code,recovered,842
+2020-04-12,MN,state,27,fips_code,recovered,772
 2020-04-12,MN,state,27,fips_code,death,70
 2020-04-12,MN,state,27,fips_code,hospitalized,361
 2020-04-12,MN,state,27,fips_code,total,37421
@@ -34531,7 +34531,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-11,MN,state,27,fips_code,in_icu_cumulative,138
 2020-04-11,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-11,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-11,MN,state,27,fips_code,recovered,793
+2020-04-11,MN,state,27,fips_code,recovered,729
 2020-04-11,MN,state,27,fips_code,death,64
 2020-04-11,MN,state,27,fips_code,hospitalized,340
 2020-04-11,MN,state,27,fips_code,total,35404
@@ -35595,7 +35595,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-10,MN,state,27,fips_code,in_icu_cumulative,131
 2020-04-10,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-10,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-10,MN,state,27,fips_code,recovered,732
+2020-04-10,MN,state,27,fips_code,recovered,675
 2020-04-10,MN,state,27,fips_code,death,57
 2020-04-10,MN,state,27,fips_code,hospitalized,317
 2020-04-10,MN,state,27,fips_code,total,33894
@@ -36659,7 +36659,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-09,MN,state,27,fips_code,in_icu_cumulative,119
 2020-04-09,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-09,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-09,MN,state,27,fips_code,recovered,675
+2020-04-09,MN,state,27,fips_code,recovered,625
 2020-04-09,MN,state,27,fips_code,death,50
 2020-04-09,MN,state,27,fips_code,hospitalized,293
 2020-04-09,MN,state,27,fips_code,total,32294
@@ -37723,7 +37723,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-08,MN,state,27,fips_code,in_icu_cumulative,105
 2020-04-08,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-08,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-08,MN,state,27,fips_code,recovered,632
+2020-04-08,MN,state,27,fips_code,recovered,593
 2020-04-08,MN,state,27,fips_code,death,39
 2020-04-08,MN,state,27,fips_code,hospitalized,271
 2020-04-08,MN,state,27,fips_code,total,30753
@@ -38787,7 +38787,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-07,MN,state,27,fips_code,in_icu_cumulative,100
 2020-04-07,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-07,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-07,MN,state,27,fips_code,recovered,549
+2020-04-07,MN,state,27,fips_code,recovered,515
 2020-04-07,MN,state,27,fips_code,death,34
 2020-04-07,MN,state,27,fips_code,hospitalized,242
 2020-04-07,MN,state,27,fips_code,total,29260
@@ -39851,7 +39851,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-06,MN,state,27,fips_code,in_icu_cumulative,90
 2020-04-06,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-06,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-06,MN,state,27,fips_code,recovered,470
+2020-04-06,MN,state,27,fips_code,recovered,440
 2020-04-06,MN,state,27,fips_code,death,30
 2020-04-06,MN,state,27,fips_code,hospitalized,223
 2020-04-06,MN,state,27,fips_code,total,28128
@@ -40915,7 +40915,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-05,MN,state,27,fips_code,in_icu_cumulative,77
 2020-04-05,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-05,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-05,MN,state,27,fips_code,recovered,451
+2020-04-05,MN,state,27,fips_code,recovered,422
 2020-04-05,MN,state,27,fips_code,death,29
 2020-04-05,MN,state,27,fips_code,hospitalized,202
 2020-04-05,MN,state,27,fips_code,total,26777
@@ -41979,7 +41979,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-04,MN,state,27,fips_code,in_icu_cumulative,69
 2020-04-04,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-04-04,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-04-04,MN,state,27,fips_code,recovered,440
+2020-04-04,MN,state,27,fips_code,recovered,416
 2020-04-04,MN,state,27,fips_code,death,24
 2020-04-04,MN,state,27,fips_code,hospitalized,180
 2020-04-04,MN,state,27,fips_code,total,25423
@@ -48363,7 +48363,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-03-29,MN,state,27,fips_code,in_icu_cumulative,17
 2020-03-29,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-03-29,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-03-29,MN,state,27,fips_code,recovered,252
+2020-03-29,MN,state,27,fips_code,recovered,243
 2020-03-29,MN,state,27,fips_code,death,9
 2020-03-29,MN,state,27,fips_code,hospitalized,75
 2020-03-29,MN,state,27,fips_code,total,17657
@@ -49427,7 +49427,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-03-28,MN,state,27,fips_code,in_icu_cumulative,17
 2020-03-28,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-03-28,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-03-28,MN,state,27,fips_code,recovered,220
+2020-03-28,MN,state,27,fips_code,recovered,215
 2020-03-28,MN,state,27,fips_code,death,5
 2020-03-28,MN,state,27,fips_code,hospitalized,57
 2020-03-28,MN,state,27,fips_code,total,16129
@@ -50491,7 +50491,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-03-27,MN,state,27,fips_code,in_icu_cumulative,17
 2020-03-27,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-03-27,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-03-27,MN,state,27,fips_code,recovered,180
+2020-03-27,MN,state,27,fips_code,recovered,176
 2020-03-27,MN,state,27,fips_code,death,4
 2020-03-27,MN,state,27,fips_code,hospitalized,51
 2020-03-27,MN,state,27,fips_code,total,14003
@@ -52619,7 +52619,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-03-25,MN,state,27,fips_code,in_icu_cumulative,NA
 2020-03-25,MN,state,27,fips_code,on_ventilator_currently,NA
 2020-03-25,MN,state,27,fips_code,on_ventilator_cumulative,NA
-2020-03-25,MN,state,27,fips_code,recovered,122
+2020-03-25,MN,state,27,fips_code,recovered,121
 2020-03-25,MN,state,27,fips_code,death,1
 2020-03-25,MN,state,27,fips_code,hospitalized,35
 2020-03-25,MN,state,27,fips_code,total,11475
