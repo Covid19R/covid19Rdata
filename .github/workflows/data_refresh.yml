@@ -30,8 +30,8 @@ jobs:
         if: success()
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
-              git config --global user.name 'RamiKrispin'
-              git config --global user.email 'ramkrisp@umich.edu'
+              git config --global user.name 'aedobbyn'
+              git config --global user.email 'amanda.e.dobbyn@gmail.com'
               git commit -am "Auto-update"
               git push
           fi
