@@ -63,7 +63,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-17,New Hampshire,state,33,fips_code,deaths_total,172
 2020-05-17,New Jersey,state,34,fips_code,cases_total,146334
 2020-05-17,New Jersey,state,34,fips_code,deaths_total,10356
-2020-05-17,New Mexico,state,35,fips_code,cases_total,5978
+2020-05-17,New Mexico,state,35,fips_code,cases_total,5938
 2020-05-17,New Mexico,state,35,fips_code,deaths_total,265
 2020-05-17,New York,state,36,fips_code,cases_total,355037
 2020-05-17,New York,state,36,fips_code,deaths_total,28168
