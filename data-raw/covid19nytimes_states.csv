@@ -1,4 +1,114 @@
 date,location,location_type,location_code,location_code_type,data_type,value
+2020-05-19,Alabama,state,01,fips_code,cases_total,12376
+2020-05-19,Alabama,state,01,fips_code,deaths_total,504
+2020-05-19,Alaska,state,02,fips_code,cases_total,399
+2020-05-19,Alaska,state,02,fips_code,deaths_total,8
+2020-05-19,Arizona,state,04,fips_code,cases_total,14566
+2020-05-19,Arizona,state,04,fips_code,deaths_total,704
+2020-05-19,Arkansas,state,05,fips_code,cases_total,4923
+2020-05-19,Arkansas,state,05,fips_code,deaths_total,102
+2020-05-19,California,state,06,fips_code,cases_total,83981
+2020-05-19,California,state,06,fips_code,deaths_total,3422
+2020-05-19,Colorado,state,08,fips_code,cases_total,22454
+2020-05-19,Colorado,state,08,fips_code,deaths_total,1257
+2020-05-19,Connecticut,state,09,fips_code,cases_total,38430
+2020-05-19,Connecticut,state,09,fips_code,deaths_total,3472
+2020-05-19,Delaware,state,10,fips_code,cases_total,8037
+2020-05-19,Delaware,state,10,fips_code,deaths_total,304
+2020-05-19,District of Columbia,state,11,fips_code,cases_total,7434
+2020-05-19,District of Columbia,state,11,fips_code,deaths_total,400
+2020-05-19,Florida,state,12,fips_code,cases_total,46936
+2020-05-19,Florida,state,12,fips_code,deaths_total,2051
+2020-05-19,Georgia,state,13,fips_code,cases_total,37214
+2020-05-19,Georgia,state,13,fips_code,deaths_total,1650
+2020-05-19,Guam,state,66,fips_code,cases_total,1123
+2020-05-19,Guam,state,66,fips_code,deaths_total,6
+2020-05-19,Hawaii,state,15,fips_code,cases_total,631
+2020-05-19,Hawaii,state,15,fips_code,deaths_total,17
+2020-05-19,Idaho,state,16,fips_code,cases_total,2476
+2020-05-19,Idaho,state,16,fips_code,deaths_total,77
+2020-05-19,Illinois,state,17,fips_code,cases_total,98298
+2020-05-19,Illinois,state,17,fips_code,deaths_total,4399
+2020-05-19,Indiana,state,18,fips_code,cases_total,29402
+2020-05-19,Indiana,state,18,fips_code,deaths_total,1824
+2020-05-19,Iowa,state,19,fips_code,cases_total,15296
+2020-05-19,Iowa,state,19,fips_code,deaths_total,367
+2020-05-19,Kansas,state,20,fips_code,cases_total,8488
+2020-05-19,Kansas,state,20,fips_code,deaths_total,193
+2020-05-19,Kentucky,state,21,fips_code,cases_total,8205
+2020-05-19,Kentucky,state,21,fips_code,deaths_total,369
+2020-05-19,Louisiana,state,22,fips_code,cases_total,35161
+2020-05-19,Louisiana,state,22,fips_code,deaths_total,2581
+2020-05-19,Maine,state,23,fips_code,cases_total,1741
+2020-05-19,Maine,state,23,fips_code,deaths_total,73
+2020-05-19,Maryland,state,24,fips_code,cases_total,41664
+2020-05-19,Maryland,state,24,fips_code,deaths_total,2081
+2020-05-19,Massachusetts,state,25,fips_code,cases_total,87925
+2020-05-19,Massachusetts,state,25,fips_code,deaths_total,5938
+2020-05-19,Michigan,state,26,fips_code,cases_total,52337
+2020-05-19,Michigan,state,26,fips_code,deaths_total,5017
+2020-05-19,Minnesota,state,27,fips_code,cases_total,17038
+2020-05-19,Minnesota,state,27,fips_code,deaths_total,757
+2020-05-19,Mississippi,state,28,fips_code,cases_total,11704
+2020-05-19,Mississippi,state,28,fips_code,deaths_total,554
+2020-05-19,Missouri,state,29,fips_code,cases_total,11369
+2020-05-19,Missouri,state,29,fips_code,deaths_total,633
+2020-05-19,Montana,state,30,fips_code,cases_total,471
+2020-05-19,Montana,state,30,fips_code,deaths_total,16
+2020-05-19,Nebraska,state,31,fips_code,cases_total,10846
+2020-05-19,Nebraska,state,31,fips_code,deaths_total,136
+2020-05-19,Nevada,state,32,fips_code,cases_total,7170
+2020-05-19,Nevada,state,32,fips_code,deaths_total,373
+2020-05-19,New Hampshire,state,33,fips_code,cases_total,3721
+2020-05-19,New Hampshire,state,33,fips_code,deaths_total,182
+2020-05-19,New Jersey,state,34,fips_code,cases_total,149013
+2020-05-19,New Jersey,state,34,fips_code,deaths_total,10586
+2020-05-19,New Mexico,state,35,fips_code,cases_total,6192
+2020-05-19,New Mexico,state,35,fips_code,deaths_total,276
+2020-05-19,New York,state,36,fips_code,cases_total,357757
+2020-05-19,New York,state,36,fips_code,deaths_total,28437
+2020-05-19,North Carolina,state,37,fips_code,cases_total,19762
+2020-05-19,North Carolina,state,37,fips_code,deaths_total,711
+2020-05-19,North Dakota,state,38,fips_code,cases_total,1994
+2020-05-19,North Dakota,state,38,fips_code,deaths_total,45
+2020-05-19,Northern Mariana Islands,state,69,fips_code,cases_total,21
+2020-05-19,Northern Mariana Islands,state,69,fips_code,deaths_total,2
+2020-05-19,Ohio,state,39,fips_code,cases_total,28953
+2020-05-19,Ohio,state,39,fips_code,deaths_total,1720
+2020-05-19,Oklahoma,state,40,fips_code,cases_total,5489
+2020-05-19,Oklahoma,state,40,fips_code,deaths_total,294
+2020-05-19,Oregon,state,41,fips_code,cases_total,3726
+2020-05-19,Oregon,state,41,fips_code,deaths_total,140
+2020-05-19,Pennsylvania,state,42,fips_code,cases_total,67404
+2020-05-19,Pennsylvania,state,42,fips_code,deaths_total,4675
+2020-05-19,Puerto Rico,state,72,fips_code,cases_total,2805
+2020-05-19,Puerto Rico,state,72,fips_code,deaths_total,124
+2020-05-19,Rhode Island,state,44,fips_code,cases_total,12951
+2020-05-19,Rhode Island,state,44,fips_code,deaths_total,532
+2020-05-19,South Carolina,state,45,fips_code,cases_total,9056
+2020-05-19,South Carolina,state,45,fips_code,deaths_total,399
+2020-05-19,South Dakota,state,46,fips_code,cases_total,4085
+2020-05-19,South Dakota,state,46,fips_code,deaths_total,46
+2020-05-19,Tennessee,state,47,fips_code,cases_total,18301
+2020-05-19,Tennessee,state,47,fips_code,deaths_total,301
+2020-05-19,Texas,state,48,fips_code,cases_total,51080
+2020-05-19,Texas,state,48,fips_code,deaths_total,1405
+2020-05-19,Utah,state,49,fips_code,cases_total,7530
+2020-05-19,Utah,state,49,fips_code,deaths_total,88
+2020-05-19,Vermont,state,50,fips_code,cases_total,944
+2020-05-19,Vermont,state,50,fips_code,deaths_total,54
+2020-05-19,Virgin Islands,state,78,fips_code,cases_total,69
+2020-05-19,Virgin Islands,state,78,fips_code,deaths_total,6
+2020-05-19,Virginia,state,51,fips_code,cases_total,32145
+2020-05-19,Virginia,state,51,fips_code,deaths_total,1041
+2020-05-19,Washington,state,53,fips_code,cases_total,20063
+2020-05-19,Washington,state,53,fips_code,deaths_total,1042
+2020-05-19,West Virginia,state,54,fips_code,cases_total,1514
+2020-05-19,West Virginia,state,54,fips_code,deaths_total,68
+2020-05-19,Wisconsin,state,55,fips_code,cases_total,13001
+2020-05-19,Wisconsin,state,55,fips_code,deaths_total,467
+2020-05-19,Wyoming,state,56,fips_code,cases_total,776
+2020-05-19,Wyoming,state,56,fips_code,deaths_total,10
 2020-05-18,Alabama,state,01,fips_code,cases_total,12086
 2020-05-18,Alabama,state,01,fips_code,deaths_total,489
 2020-05-18,Alaska,state,02,fips_code,cases_total,399
@@ -37,8 +147,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-18,Kansas,state,20,fips_code,deaths_total,190
 2020-05-18,Kentucky,state,21,fips_code,cases_total,8041
 2020-05-18,Kentucky,state,21,fips_code,deaths_total,354
-2020-05-18,Louisiana,state,22,fips_code,cases_total,34709
-2020-05-18,Louisiana,state,22,fips_code,deaths_total,2440
+2020-05-18,Louisiana,state,22,fips_code,cases_total,34832
+2020-05-18,Louisiana,state,22,fips_code,deaths_total,2563
 2020-05-18,Maine,state,23,fips_code,cases_total,1713
 2020-05-18,Maine,state,23,fips_code,deaths_total,71
 2020-05-18,Maryland,state,24,fips_code,cases_total,39882
@@ -147,8 +257,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-17,Kansas,state,20,fips_code,deaths_total,189
 2020-05-17,Kentucky,state,21,fips_code,cases_total,7793
 2020-05-17,Kentucky,state,21,fips_code,deaths_total,346
-2020-05-17,Louisiana,state,22,fips_code,cases_total,34432
-2020-05-17,Louisiana,state,22,fips_code,deaths_total,2425
+2020-05-17,Louisiana,state,22,fips_code,cases_total,34498
+2020-05-17,Louisiana,state,22,fips_code,deaths_total,2491
 2020-05-17,Maine,state,23,fips_code,cases_total,1687
 2020-05-17,Maine,state,23,fips_code,deaths_total,70
 2020-05-17,Maryland,state,24,fips_code,cases_total,38920
@@ -257,8 +367,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-16,Kansas,state,20,fips_code,deaths_total,189
 2020-05-16,Kentucky,state,21,fips_code,cases_total,7773
 2020-05-16,Kentucky,state,21,fips_code,deaths_total,346
-2020-05-16,Louisiana,state,22,fips_code,cases_total,34117
-2020-05-16,Louisiana,state,22,fips_code,deaths_total,2413
+2020-05-16,Louisiana,state,22,fips_code,cases_total,34183
+2020-05-16,Louisiana,state,22,fips_code,deaths_total,2479
 2020-05-16,Maine,state,23,fips_code,cases_total,1648
 2020-05-16,Maine,state,23,fips_code,deaths_total,70
 2020-05-16,Maryland,state,24,fips_code,cases_total,38083
@@ -367,8 +477,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-15,Kansas,state,20,fips_code,deaths_total,187
 2020-05-15,Kentucky,state,21,fips_code,cases_total,7578
 2020-05-15,Kentucky,state,21,fips_code,deaths_total,343
-2020-05-15,Louisiana,state,22,fips_code,cases_total,33837
-2020-05-15,Louisiana,state,22,fips_code,deaths_total,2382
+2020-05-15,Louisiana,state,22,fips_code,cases_total,33903
+2020-05-15,Louisiana,state,22,fips_code,deaths_total,2448
 2020-05-15,Maine,state,23,fips_code,cases_total,1603
 2020-05-15,Maine,state,23,fips_code,deaths_total,69
 2020-05-15,Maryland,state,24,fips_code,cases_total,37105
@@ -477,8 +587,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-14,Kansas,state,20,fips_code,deaths_total,181
 2020-05-14,Kentucky,state,21,fips_code,cases_total,7397
 2020-05-14,Kentucky,state,21,fips_code,deaths_total,341
-2020-05-14,Louisiana,state,22,fips_code,cases_total,33489
-2020-05-14,Louisiana,state,22,fips_code,deaths_total,2351
+2020-05-14,Louisiana,state,22,fips_code,cases_total,33555
+2020-05-14,Louisiana,state,22,fips_code,deaths_total,2417
 2020-05-14,Maine,state,23,fips_code,cases_total,1565
 2020-05-14,Maine,state,23,fips_code,deaths_total,69
 2020-05-14,Maryland,state,24,fips_code,cases_total,36021
@@ -587,8 +697,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-13,Kansas,state,20,fips_code,deaths_total,179
 2020-05-13,Kentucky,state,21,fips_code,cases_total,7102
 2020-05-13,Kentucky,state,21,fips_code,deaths_total,334
-2020-05-13,Louisiana,state,22,fips_code,cases_total,32662
-2020-05-13,Louisiana,state,22,fips_code,deaths_total,2315
+2020-05-13,Louisiana,state,22,fips_code,cases_total,32728
+2020-05-13,Louisiana,state,22,fips_code,deaths_total,2381
 2020-05-13,Maine,state,23,fips_code,cases_total,1515
 2020-05-13,Maine,state,23,fips_code,deaths_total,66
 2020-05-13,Maryland,state,24,fips_code,cases_total,34927
@@ -697,8 +807,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-12,Kansas,state,20,fips_code,deaths_total,178
 2020-05-12,Kentucky,state,21,fips_code,cases_total,7003
 2020-05-12,Kentucky,state,21,fips_code,deaths_total,333
-2020-05-12,Louisiana,state,22,fips_code,cases_total,32050
-2020-05-12,Louisiana,state,22,fips_code,deaths_total,2281
+2020-05-12,Louisiana,state,22,fips_code,cases_total,32116
+2020-05-12,Louisiana,state,22,fips_code,deaths_total,2347
 2020-05-12,Maine,state,23,fips_code,cases_total,1477
 2020-05-12,Maine,state,23,fips_code,deaths_total,65
 2020-05-12,Maryland,state,24,fips_code,cases_total,34174
@@ -807,8 +917,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-11,Kansas,state,20,fips_code,deaths_total,174
 2020-05-11,Kentucky,state,21,fips_code,cases_total,6710
 2020-05-11,Kentucky,state,21,fips_code,deaths_total,325
-2020-05-11,Louisiana,state,22,fips_code,cases_total,31815
-2020-05-11,Louisiana,state,22,fips_code,deaths_total,2242
+2020-05-11,Louisiana,state,22,fips_code,cases_total,31881
+2020-05-11,Louisiana,state,22,fips_code,deaths_total,2308
 2020-05-11,Maine,state,23,fips_code,cases_total,1462
 2020-05-11,Maine,state,23,fips_code,deaths_total,65
 2020-05-11,Maryland,state,24,fips_code,cases_total,33483
@@ -917,8 +1027,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-10,Kansas,state,20,fips_code,deaths_total,172
 2020-05-10,Kentucky,state,21,fips_code,cases_total,6486
 2020-05-10,Kentucky,state,21,fips_code,deaths_total,312
-2020-05-10,Louisiana,state,22,fips_code,cases_total,31600
-2020-05-10,Louisiana,state,22,fips_code,deaths_total,2213
+2020-05-10,Louisiana,state,22,fips_code,cases_total,31673
+2020-05-10,Louisiana,state,22,fips_code,deaths_total,2286
 2020-05-10,Maine,state,23,fips_code,cases_total,1436
 2020-05-10,Maine,state,23,fips_code,deaths_total,64
 2020-05-10,Maryland,state,24,fips_code,cases_total,32693
@@ -1027,8 +1137,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-09,Kansas,state,20,fips_code,deaths_total,172
 2020-05-09,Kentucky,state,21,fips_code,cases_total,6469
 2020-05-09,Kentucky,state,21,fips_code,deaths_total,312
-2020-05-09,Louisiana,state,22,fips_code,cases_total,31417
-2020-05-09,Louisiana,state,22,fips_code,deaths_total,2194
+2020-05-09,Louisiana,state,22,fips_code,cases_total,31490
+2020-05-09,Louisiana,state,22,fips_code,deaths_total,2267
 2020-05-09,Maine,state,23,fips_code,cases_total,1408
 2020-05-09,Maine,state,23,fips_code,deaths_total,64
 2020-05-09,Maryland,state,24,fips_code,cases_total,31638
@@ -1137,8 +1247,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-08,Kansas,state,20,fips_code,deaths_total,167
 2020-05-08,Kentucky,state,21,fips_code,cases_total,6298
 2020-05-08,Kentucky,state,21,fips_code,deaths_total,304
-2020-05-08,Louisiana,state,22,fips_code,cases_total,30855
-2020-05-08,Louisiana,state,22,fips_code,deaths_total,2154
+2020-05-08,Louisiana,state,22,fips_code,cases_total,30928
+2020-05-08,Louisiana,state,22,fips_code,deaths_total,2227
 2020-05-08,Maine,state,23,fips_code,cases_total,1374
 2020-05-08,Maine,state,23,fips_code,deaths_total,63
 2020-05-08,Maryland,state,24,fips_code,cases_total,30592
@@ -1247,8 +1357,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-07,Kansas,state,20,fips_code,deaths_total,164
 2020-05-07,Kentucky,state,21,fips_code,cases_total,6173
 2020-05-07,Kentucky,state,21,fips_code,deaths_total,302
-2020-05-07,Louisiana,state,22,fips_code,cases_total,30652
-2020-05-07,Louisiana,state,22,fips_code,deaths_total,2135
+2020-05-07,Louisiana,state,22,fips_code,cases_total,30725
+2020-05-07,Louisiana,state,22,fips_code,deaths_total,2208
 2020-05-07,Maine,state,23,fips_code,cases_total,1330
 2020-05-07,Maine,state,23,fips_code,deaths_total,62
 2020-05-07,Maryland,state,24,fips_code,cases_total,29476
@@ -1357,8 +1467,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-06,Kansas,state,20,fips_code,deaths_total,163
 2020-05-06,Kentucky,state,21,fips_code,cases_total,5946
 2020-05-06,Kentucky,state,21,fips_code,deaths_total,286
-2020-05-06,Louisiana,state,22,fips_code,cases_total,30399
-2020-05-06,Louisiana,state,22,fips_code,deaths_total,2094
+2020-05-06,Louisiana,state,22,fips_code,cases_total,30472
+2020-05-06,Louisiana,state,22,fips_code,deaths_total,2167
 2020-05-06,Maine,state,23,fips_code,cases_total,1254
 2020-05-06,Maine,state,23,fips_code,deaths_total,62
 2020-05-06,Maryland,state,24,fips_code,cases_total,28263
@@ -1467,8 +1577,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-05,Kansas,state,20,fips_code,deaths_total,160
 2020-05-05,Kentucky,state,21,fips_code,cases_total,5822
 2020-05-05,Kentucky,state,21,fips_code,deaths_total,278
-2020-05-05,Louisiana,state,22,fips_code,cases_total,29996
-2020-05-05,Louisiana,state,22,fips_code,deaths_total,2042
+2020-05-05,Louisiana,state,22,fips_code,cases_total,30069
+2020-05-05,Louisiana,state,22,fips_code,deaths_total,2115
 2020-05-05,Maine,state,23,fips_code,cases_total,1226
 2020-05-05,Maine,state,23,fips_code,deaths_total,61
 2020-05-05,Maryland,state,24,fips_code,cases_total,27217
@@ -1577,8 +1687,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-04,Kansas,state,20,fips_code,deaths_total,154
 2020-05-04,Kentucky,state,21,fips_code,cases_total,5370
 2020-05-04,Kentucky,state,21,fips_code,deaths_total,267
-2020-05-04,Louisiana,state,22,fips_code,cases_total,29673
-2020-05-04,Louisiana,state,22,fips_code,deaths_total,1991
+2020-05-04,Louisiana,state,22,fips_code,cases_total,29746
+2020-05-04,Louisiana,state,22,fips_code,deaths_total,2064
 2020-05-04,Maine,state,23,fips_code,cases_total,1205
 2020-05-04,Maine,state,23,fips_code,deaths_total,57
 2020-05-04,Maryland,state,24,fips_code,cases_total,26509
@@ -1687,8 +1797,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-03,Kansas,state,20,fips_code,deaths_total,142
 2020-05-03,Kentucky,state,21,fips_code,cases_total,5223
 2020-05-03,Kentucky,state,21,fips_code,deaths_total,256
-2020-05-03,Louisiana,state,22,fips_code,cases_total,29340
-2020-05-03,Louisiana,state,22,fips_code,deaths_total,1969
+2020-05-03,Louisiana,state,22,fips_code,cases_total,29383
+2020-05-03,Louisiana,state,22,fips_code,deaths_total,2012
 2020-05-03,Maine,state,23,fips_code,cases_total,1185
 2020-05-03,Maine,state,23,fips_code,deaths_total,57
 2020-05-03,Maryland,state,24,fips_code,cases_total,25561
@@ -1797,8 +1907,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-02,Kansas,state,20,fips_code,deaths_total,140
 2020-05-02,Kentucky,state,21,fips_code,cases_total,4881
 2020-05-02,Kentucky,state,21,fips_code,deaths_total,252
-2020-05-02,Louisiana,state,22,fips_code,cases_total,29140
-2020-05-02,Louisiana,state,22,fips_code,deaths_total,1950
+2020-05-02,Louisiana,state,22,fips_code,cases_total,29183
+2020-05-02,Louisiana,state,22,fips_code,deaths_total,1993
 2020-05-02,Maine,state,23,fips_code,cases_total,1152
 2020-05-02,Maine,state,23,fips_code,deaths_total,56
 2020-05-02,Maryland,state,24,fips_code,cases_total,24568
@@ -1907,8 +2017,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-01,Kansas,state,20,fips_code,deaths_total,136
 2020-05-01,Kentucky,state,21,fips_code,cases_total,4879
 2020-05-01,Kentucky,state,21,fips_code,deaths_total,248
-2020-05-01,Louisiana,state,22,fips_code,cases_total,28711
-2020-05-01,Louisiana,state,22,fips_code,deaths_total,1927
+2020-05-01,Louisiana,state,22,fips_code,cases_total,28754
+2020-05-01,Louisiana,state,22,fips_code,deaths_total,1970
 2020-05-01,Maine,state,23,fips_code,cases_total,1123
 2020-05-01,Maine,state,23,fips_code,deaths_total,55
 2020-05-01,Maryland,state,24,fips_code,cases_total,23566
@@ -2017,8 +2127,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-30,Kansas,state,20,fips_code,deaths_total,133
 2020-04-30,Kentucky,state,21,fips_code,cases_total,4708
 2020-04-30,Kentucky,state,21,fips_code,deaths_total,240
-2020-04-30,Louisiana,state,22,fips_code,cases_total,28001
-2020-04-30,Louisiana,state,22,fips_code,deaths_total,1862
+2020-04-30,Louisiana,state,22,fips_code,cases_total,28044
+2020-04-30,Louisiana,state,22,fips_code,deaths_total,1905
 2020-04-30,Maine,state,23,fips_code,cases_total,1095
 2020-04-30,Maine,state,23,fips_code,deaths_total,53
 2020-04-30,Maryland,state,24,fips_code,cases_total,21825
@@ -2127,8 +2237,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-29,Kansas,state,20,fips_code,deaths_total,132
 2020-04-29,Kentucky,state,21,fips_code,cases_total,4538
 2020-04-29,Kentucky,state,21,fips_code,deaths_total,235
-2020-04-29,Louisiana,state,22,fips_code,cases_total,27660
-2020-04-29,Louisiana,state,22,fips_code,deaths_total,1802
+2020-04-29,Louisiana,state,22,fips_code,cases_total,27703
+2020-04-29,Louisiana,state,22,fips_code,deaths_total,1845
 2020-04-29,Maine,state,23,fips_code,cases_total,1056
 2020-04-29,Maine,state,23,fips_code,deaths_total,52
 2020-04-29,Maryland,state,24,fips_code,cases_total,20942
@@ -2237,8 +2347,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-28,Kansas,state,20,fips_code,deaths_total,127
 2020-04-28,Kentucky,state,21,fips_code,cases_total,4375
 2020-04-28,Kentucky,state,21,fips_code,deaths_total,231
-2020-04-28,Louisiana,state,22,fips_code,cases_total,27286
-2020-04-28,Louisiana,state,22,fips_code,deaths_total,1758
+2020-04-28,Louisiana,state,22,fips_code,cases_total,27329
+2020-04-28,Louisiana,state,22,fips_code,deaths_total,1801
 2020-04-28,Maine,state,23,fips_code,cases_total,1040
 2020-04-28,Maine,state,23,fips_code,deaths_total,51
 2020-04-28,Maryland,state,24,fips_code,cases_total,20200
@@ -2347,8 +2457,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-27,Kansas,state,20,fips_code,deaths_total,126
 2020-04-27,Kentucky,state,21,fips_code,cases_total,4146
 2020-04-27,Kentucky,state,21,fips_code,deaths_total,216
-2020-04-27,Louisiana,state,22,fips_code,cases_total,27068
-2020-04-27,Louisiana,state,22,fips_code,deaths_total,1697
+2020-04-27,Louisiana,state,22,fips_code,cases_total,27111
+2020-04-27,Louisiana,state,22,fips_code,deaths_total,1740
 2020-04-27,Maine,state,23,fips_code,cases_total,1023
 2020-04-27,Maine,state,23,fips_code,deaths_total,51
 2020-04-27,Maryland,state,24,fips_code,cases_total,19574
@@ -2457,8 +2567,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-26,Kansas,state,20,fips_code,deaths_total,120
 2020-04-26,Kentucky,state,21,fips_code,cases_total,4074
 2020-04-26,Kentucky,state,21,fips_code,deaths_total,211
-2020-04-26,Louisiana,state,22,fips_code,cases_total,26773
-2020-04-26,Louisiana,state,22,fips_code,deaths_total,1670
+2020-04-26,Louisiana,state,22,fips_code,cases_total,26832
+2020-04-26,Louisiana,state,22,fips_code,deaths_total,1729
 2020-04-26,Maine,state,23,fips_code,cases_total,1015
 2020-04-26,Maine,state,23,fips_code,deaths_total,50
 2020-04-26,Maryland,state,24,fips_code,cases_total,18664
@@ -2567,8 +2677,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-25,Kansas,state,20,fips_code,deaths_total,119
 2020-04-25,Kentucky,state,21,fips_code,cases_total,3905
 2020-04-25,Kentucky,state,21,fips_code,deaths_total,208
-2020-04-25,Louisiana,state,22,fips_code,cases_total,26512
-2020-04-25,Louisiana,state,22,fips_code,deaths_total,1644
+2020-04-25,Louisiana,state,22,fips_code,cases_total,26571
+2020-04-25,Louisiana,state,22,fips_code,deaths_total,1703
 2020-04-25,Maine,state,23,fips_code,cases_total,990
 2020-04-25,Maine,state,23,fips_code,deaths_total,50
 2020-04-25,Maryland,state,24,fips_code,cases_total,17844
@@ -2677,8 +2787,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-24,Kansas,state,20,fips_code,deaths_total,117
 2020-04-24,Kentucky,state,21,fips_code,cases_total,3779
 2020-04-24,Kentucky,state,21,fips_code,deaths_total,203
-2020-04-24,Louisiana,state,22,fips_code,cases_total,26140
-2020-04-24,Louisiana,state,22,fips_code,deaths_total,1601
+2020-04-24,Louisiana,state,22,fips_code,cases_total,26199
+2020-04-24,Louisiana,state,22,fips_code,deaths_total,1660
 2020-04-24,Maine,state,23,fips_code,cases_total,965
 2020-04-24,Maine,state,23,fips_code,deaths_total,47
 2020-04-24,Maryland,state,24,fips_code,cases_total,16693
@@ -2787,8 +2897,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-23,Kansas,state,20,fips_code,deaths_total,112
 2020-04-23,Kentucky,state,21,fips_code,cases_total,3548
 2020-04-23,Kentucky,state,21,fips_code,deaths_total,194
-2020-04-23,Louisiana,state,22,fips_code,cases_total,25739
-2020-04-23,Louisiana,state,22,fips_code,deaths_total,1540
+2020-04-23,Louisiana,state,22,fips_code,cases_total,25798
+2020-04-23,Louisiana,state,22,fips_code,deaths_total,1599
 2020-04-23,Maine,state,23,fips_code,cases_total,937
 2020-04-23,Maine,state,23,fips_code,deaths_total,44
 2020-04-23,Maryland,state,24,fips_code,cases_total,15805
@@ -2897,8 +3007,8 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-22,Kansas,state,20,fips_code,deaths_total,111
 2020-04-22,Kentucky,state,21,fips_code,cases_total,3373
 2020-04-22,Kentucky,state,21,fips_code,deaths_total,185
-2020-04-22,Louisiana,state,22,fips_code,cases_total,25258
-2020-04-22,Louisiana,state,22,fips_code,deaths_total,1473
+2020-04-22,Louisiana,state,22,fips_code,cases_total,25317
+2020-04-22,Louisiana,state,22,fips_code,deaths_total,1532
 2020-04-22,Maine,state,23,fips_code,cases_total,907
 2020-04-22,Maine,state,23,fips_code,deaths_total,39
 2020-04-22,Maryland,state,24,fips_code,cases_total,14842
