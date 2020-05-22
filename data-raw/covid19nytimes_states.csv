@@ -1,4 +1,114 @@
 date,location,location_type,location_code,location_code_type,data_type,value
+2020-05-20,Alabama,state,01,fips_code,cases_total,13052
+2020-05-20,Alabama,state,01,fips_code,deaths_total,522
+2020-05-20,Alaska,state,02,fips_code,cases_total,402
+2020-05-20,Alaska,state,02,fips_code,deaths_total,8
+2020-05-20,Arizona,state,04,fips_code,cases_total,14897
+2020-05-20,Arizona,state,04,fips_code,deaths_total,747
+2020-05-20,Arkansas,state,05,fips_code,cases_total,5003
+2020-05-20,Arkansas,state,05,fips_code,deaths_total,107
+2020-05-20,California,state,06,fips_code,cases_total,86125
+2020-05-20,California,state,06,fips_code,deaths_total,3514
+2020-05-20,Colorado,state,08,fips_code,cases_total,22769
+2020-05-20,Colorado,state,08,fips_code,deaths_total,1299
+2020-05-20,Connecticut,state,09,fips_code,cases_total,39017
+2020-05-20,Connecticut,state,09,fips_code,deaths_total,3529
+2020-05-20,Delaware,state,10,fips_code,cases_total,8194
+2020-05-20,Delaware,state,10,fips_code,deaths_total,310
+2020-05-20,District of Columbia,state,11,fips_code,cases_total,7551
+2020-05-20,District of Columbia,state,11,fips_code,deaths_total,407
+2020-05-20,Florida,state,12,fips_code,cases_total,47463
+2020-05-20,Florida,state,12,fips_code,deaths_total,2095
+2020-05-20,Georgia,state,13,fips_code,cases_total,38162
+2020-05-20,Georgia,state,13,fips_code,deaths_total,1672
+2020-05-20,Guam,state,66,fips_code,cases_total,1123
+2020-05-20,Guam,state,66,fips_code,deaths_total,6
+2020-05-20,Hawaii,state,15,fips_code,cases_total,633
+2020-05-20,Hawaii,state,15,fips_code,deaths_total,17
+2020-05-20,Idaho,state,16,fips_code,cases_total,2506
+2020-05-20,Idaho,state,16,fips_code,deaths_total,77
+2020-05-20,Illinois,state,17,fips_code,cases_total,100713
+2020-05-20,Illinois,state,17,fips_code,deaths_total,4547
+2020-05-20,Indiana,state,18,fips_code,cases_total,29986
+2020-05-20,Indiana,state,18,fips_code,deaths_total,1864
+2020-05-20,Iowa,state,19,fips_code,cases_total,15868
+2020-05-20,Iowa,state,19,fips_code,deaths_total,400
+2020-05-20,Kansas,state,20,fips_code,cases_total,8661
+2020-05-20,Kansas,state,20,fips_code,deaths_total,197
+2020-05-20,Kentucky,state,21,fips_code,cases_total,8336
+2020-05-20,Kentucky,state,21,fips_code,deaths_total,381
+2020-05-20,Louisiana,state,22,fips_code,cases_total,35439
+2020-05-20,Louisiana,state,22,fips_code,deaths_total,2608
+2020-05-20,Maine,state,23,fips_code,cases_total,1819
+2020-05-20,Maine,state,23,fips_code,deaths_total,73
+2020-05-20,Maryland,state,24,fips_code,cases_total,42442
+2020-05-20,Maryland,state,24,fips_code,deaths_total,2123
+2020-05-20,Massachusetts,state,25,fips_code,cases_total,88970
+2020-05-20,Massachusetts,state,25,fips_code,deaths_total,6066
+2020-05-20,Michigan,state,26,fips_code,cases_total,52988
+2020-05-20,Michigan,state,26,fips_code,deaths_total,5060
+2020-05-20,Minnesota,state,27,fips_code,cases_total,17679
+2020-05-20,Minnesota,state,27,fips_code,deaths_total,786
+2020-05-20,Mississippi,state,28,fips_code,cases_total,11967
+2020-05-20,Mississippi,state,28,fips_code,deaths_total,570
+2020-05-20,Missouri,state,29,fips_code,cases_total,11510
+2020-05-20,Missouri,state,29,fips_code,deaths_total,645
+2020-05-20,Montana,state,30,fips_code,cases_total,478
+2020-05-20,Montana,state,30,fips_code,deaths_total,16
+2020-05-20,Nebraska,state,31,fips_code,cases_total,11122
+2020-05-20,Nebraska,state,31,fips_code,deaths_total,141
+2020-05-20,Nevada,state,32,fips_code,cases_total,7301
+2020-05-20,Nevada,state,32,fips_code,deaths_total,378
+2020-05-20,New Hampshire,state,33,fips_code,cases_total,3868
+2020-05-20,New Hampshire,state,33,fips_code,deaths_total,190
+2020-05-20,New Jersey,state,34,fips_code,cases_total,150399
+2020-05-20,New Jersey,state,34,fips_code,deaths_total,10747
+2020-05-20,New Mexico,state,35,fips_code,cases_total,6338
+2020-05-20,New Mexico,state,35,fips_code,deaths_total,283
+2020-05-20,New York,state,36,fips_code,cases_total,359235
+2020-05-20,New York,state,36,fips_code,deaths_total,28540
+2020-05-20,North Carolina,state,37,fips_code,cases_total,20221
+2020-05-20,North Carolina,state,37,fips_code,deaths_total,721
+2020-05-20,North Dakota,state,38,fips_code,cases_total,2095
+2020-05-20,North Dakota,state,38,fips_code,deaths_total,49
+2020-05-20,Northern Mariana Islands,state,69,fips_code,cases_total,21
+2020-05-20,Northern Mariana Islands,state,69,fips_code,deaths_total,2
+2020-05-20,Ohio,state,39,fips_code,cases_total,29437
+2020-05-20,Ohio,state,39,fips_code,deaths_total,1781
+2020-05-20,Oklahoma,state,40,fips_code,cases_total,5532
+2020-05-20,Oklahoma,state,40,fips_code,deaths_total,299
+2020-05-20,Oregon,state,41,fips_code,cases_total,3801
+2020-05-20,Oregon,state,41,fips_code,deaths_total,144
+2020-05-20,Pennsylvania,state,42,fips_code,cases_total,68151
+2020-05-20,Pennsylvania,state,42,fips_code,deaths_total,4794
+2020-05-20,Puerto Rico,state,72,fips_code,cases_total,2866
+2020-05-20,Puerto Rico,state,72,fips_code,deaths_total,125
+2020-05-20,Rhode Island,state,44,fips_code,cases_total,13356
+2020-05-20,Rhode Island,state,44,fips_code,deaths_total,538
+2020-05-20,South Carolina,state,45,fips_code,cases_total,9175
+2020-05-20,South Carolina,state,45,fips_code,deaths_total,407
+2020-05-20,South Dakota,state,46,fips_code,cases_total,4177
+2020-05-20,South Dakota,state,46,fips_code,deaths_total,46
+2020-05-20,Tennessee,state,47,fips_code,cases_total,18534
+2020-05-20,Tennessee,state,47,fips_code,deaths_total,309
+2020-05-20,Texas,state,48,fips_code,cases_total,52183
+2020-05-20,Texas,state,48,fips_code,deaths_total,1438
+2020-05-20,Utah,state,49,fips_code,cases_total,7717
+2020-05-20,Utah,state,49,fips_code,deaths_total,90
+2020-05-20,Vermont,state,50,fips_code,cases_total,944
+2020-05-20,Vermont,state,50,fips_code,deaths_total,54
+2020-05-20,Virgin Islands,state,78,fips_code,cases_total,69
+2020-05-20,Virgin Islands,state,78,fips_code,deaths_total,6
+2020-05-20,Virginia,state,51,fips_code,cases_total,32908
+2020-05-20,Virginia,state,51,fips_code,deaths_total,1074
+2020-05-20,Washington,state,53,fips_code,cases_total,20179
+2020-05-20,Washington,state,53,fips_code,deaths_total,1045
+2020-05-20,West Virginia,state,54,fips_code,cases_total,1567
+2020-05-20,West Virginia,state,54,fips_code,deaths_total,69
+2020-05-20,Wisconsin,state,55,fips_code,cases_total,13574
+2020-05-20,Wisconsin,state,55,fips_code,deaths_total,481
+2020-05-20,Wyoming,state,56,fips_code,cases_total,787
+2020-05-20,Wyoming,state,56,fips_code,deaths_total,11
 2020-05-19,Alabama,state,01,fips_code,cases_total,12376
 2020-05-19,Alabama,state,01,fips_code,deaths_total,504
 2020-05-19,Alaska,state,02,fips_code,cases_total,399
@@ -57,7 +167,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-19,Montana,state,30,fips_code,deaths_total,16
 2020-05-19,Nebraska,state,31,fips_code,cases_total,10846
 2020-05-19,Nebraska,state,31,fips_code,deaths_total,136
-2020-05-19,Nevada,state,32,fips_code,cases_total,7170
+2020-05-19,Nevada,state,32,fips_code,cases_total,7169
 2020-05-19,Nevada,state,32,fips_code,deaths_total,373
 2020-05-19,New Hampshire,state,33,fips_code,cases_total,3721
 2020-05-19,New Hampshire,state,33,fips_code,deaths_total,182
@@ -167,7 +277,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-18,Montana,state,30,fips_code,deaths_total,16
 2020-05-18,Nebraska,state,31,fips_code,cases_total,10625
 2020-05-18,Nebraska,state,31,fips_code,deaths_total,132
-2020-05-18,Nevada,state,32,fips_code,cases_total,7061
+2020-05-18,Nevada,state,32,fips_code,cases_total,7059
 2020-05-18,Nevada,state,32,fips_code,deaths_total,364
 2020-05-18,New Hampshire,state,33,fips_code,cases_total,3652
 2020-05-18,New Hampshire,state,33,fips_code,deaths_total,172
@@ -277,7 +387,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-17,Montana,state,30,fips_code,deaths_total,16
 2020-05-17,Nebraska,state,31,fips_code,cases_total,10348
 2020-05-17,Nebraska,state,31,fips_code,deaths_total,129
-2020-05-17,Nevada,state,32,fips_code,cases_total,6944
+2020-05-17,Nevada,state,32,fips_code,cases_total,6935
 2020-05-17,Nevada,state,32,fips_code,deaths_total,350
 2020-05-17,New Hampshire,state,33,fips_code,cases_total,3596
 2020-05-17,New Hampshire,state,33,fips_code,deaths_total,172
@@ -387,7 +497,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-16,Montana,state,30,fips_code,deaths_total,16
 2020-05-16,Nebraska,state,31,fips_code,cases_total,10220
 2020-05-16,Nebraska,state,31,fips_code,deaths_total,129
-2020-05-16,Nevada,state,32,fips_code,cases_total,6819
+2020-05-16,Nevada,state,32,fips_code,cases_total,6810
 2020-05-16,Nevada,state,32,fips_code,deaths_total,349
 2020-05-16,New Hampshire,state,33,fips_code,cases_total,3556
 2020-05-16,New Hampshire,state,33,fips_code,deaths_total,171
@@ -497,7 +607,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-15,Montana,state,30,fips_code,deaths_total,16
 2020-05-15,Nebraska,state,31,fips_code,cases_total,9766
 2020-05-15,Nebraska,state,31,fips_code,deaths_total,122
-2020-05-15,Nevada,state,32,fips_code,cases_total,6744
+2020-05-15,Nevada,state,32,fips_code,cases_total,6733
 2020-05-15,Nevada,state,32,fips_code,deaths_total,345
 2020-05-15,New Hampshire,state,33,fips_code,cases_total,3464
 2020-05-15,New Hampshire,state,33,fips_code,deaths_total,159
@@ -607,7 +717,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-14,Montana,state,30,fips_code,deaths_total,16
 2020-05-14,Nebraska,state,31,fips_code,cases_total,9411
 2020-05-14,Nebraska,state,31,fips_code,deaths_total,117
-2020-05-14,Nevada,state,32,fips_code,cases_total,6615
+2020-05-14,Nevada,state,32,fips_code,cases_total,6604
 2020-05-14,Nevada,state,32,fips_code,deaths_total,339
 2020-05-14,New Hampshire,state,33,fips_code,cases_total,3382
 2020-05-14,New Hampshire,state,33,fips_code,deaths_total,151
@@ -717,7 +827,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-13,Montana,state,30,fips_code,deaths_total,16
 2020-05-13,Nebraska,state,31,fips_code,cases_total,9072
 2020-05-13,Nebraska,state,31,fips_code,deaths_total,106
-2020-05-13,Nevada,state,32,fips_code,cases_total,6491
+2020-05-13,Nevada,state,32,fips_code,cases_total,6482
 2020-05-13,Nevada,state,32,fips_code,deaths_total,331
 2020-05-13,New Hampshire,state,33,fips_code,cases_total,3299
 2020-05-13,New Hampshire,state,33,fips_code,deaths_total,150
@@ -937,7 +1047,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-11,Montana,state,30,fips_code,deaths_total,16
 2020-05-11,Nebraska,state,31,fips_code,cases_total,8575
 2020-05-11,Nebraska,state,31,fips_code,deaths_total,99
-2020-05-11,Nevada,state,32,fips_code,cases_total,6153
+2020-05-11,Nevada,state,32,fips_code,cases_total,6152
 2020-05-11,Nevada,state,32,fips_code,deaths_total,312
 2020-05-11,New Hampshire,state,33,fips_code,cases_total,3160
 2020-05-11,New Hampshire,state,33,fips_code,deaths_total,133
@@ -1047,7 +1157,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-10,Montana,state,30,fips_code,deaths_total,16
 2020-05-10,Nebraska,state,31,fips_code,cases_total,8328
 2020-05-10,Nebraska,state,31,fips_code,deaths_total,97
-2020-05-10,Nevada,state,32,fips_code,cases_total,6150
+2020-05-10,Nevada,state,32,fips_code,cases_total,6120
 2020-05-10,Nevada,state,32,fips_code,deaths_total,306
 2020-05-10,New Hampshire,state,33,fips_code,cases_total,3071
 2020-05-10,New Hampshire,state,33,fips_code,deaths_total,133
@@ -1157,7 +1267,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-09,Montana,state,30,fips_code,deaths_total,16
 2020-05-09,Nebraska,state,31,fips_code,cases_total,8233
 2020-05-09,Nebraska,state,31,fips_code,deaths_total,95
-2020-05-09,Nevada,state,32,fips_code,cases_total,6076
+2020-05-09,Nevada,state,32,fips_code,cases_total,6046
 2020-05-09,Nevada,state,32,fips_code,deaths_total,306
 2020-05-09,New Hampshire,state,33,fips_code,cases_total,3011
 2020-05-09,New Hampshire,state,33,fips_code,deaths_total,131
@@ -1267,7 +1377,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-08,Montana,state,30,fips_code,deaths_total,16
 2020-05-08,Nebraska,state,31,fips_code,cases_total,7830
 2020-05-08,Nebraska,state,31,fips_code,deaths_total,92
-2020-05-08,Nevada,state,32,fips_code,cases_total,5972
+2020-05-08,Nevada,state,32,fips_code,cases_total,5942
 2020-05-08,Nevada,state,32,fips_code,deaths_total,301
 2020-05-08,New Hampshire,state,33,fips_code,cases_total,2947
 2020-05-08,New Hampshire,state,33,fips_code,deaths_total,121
@@ -1377,7 +1487,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-07,Montana,state,30,fips_code,deaths_total,16
 2020-05-07,Nebraska,state,31,fips_code,cases_total,7190
 2020-05-07,Nebraska,state,31,fips_code,deaths_total,91
-2020-05-07,Nevada,state,32,fips_code,cases_total,5888
+2020-05-07,Nevada,state,32,fips_code,cases_total,5858
 2020-05-07,Nevada,state,32,fips_code,deaths_total,293
 2020-05-07,New Hampshire,state,33,fips_code,cases_total,2843
 2020-05-07,New Hampshire,state,33,fips_code,deaths_total,114
@@ -1487,7 +1597,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-06,Montana,state,30,fips_code,deaths_total,16
 2020-05-06,Nebraska,state,31,fips_code,cases_total,6771
 2020-05-06,Nebraska,state,31,fips_code,deaths_total,85
-2020-05-06,Nevada,state,32,fips_code,cases_total,5774
+2020-05-06,Nevada,state,32,fips_code,cases_total,5744
 2020-05-06,Nevada,state,32,fips_code,deaths_total,286
 2020-05-06,New Hampshire,state,33,fips_code,cases_total,2741
 2020-05-06,New Hampshire,state,33,fips_code,deaths_total,111
@@ -1597,7 +1707,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-05,Montana,state,30,fips_code,deaths_total,16
 2020-05-05,Nebraska,state,31,fips_code,cases_total,6442
 2020-05-05,Nebraska,state,31,fips_code,deaths_total,81
-2020-05-05,Nevada,state,32,fips_code,cases_total,5695
+2020-05-05,Nevada,state,32,fips_code,cases_total,5665
 2020-05-05,Nevada,state,32,fips_code,deaths_total,276
 2020-05-05,New Hampshire,state,33,fips_code,cases_total,2636
 2020-05-05,New Hampshire,state,33,fips_code,deaths_total,92
@@ -1707,7 +1817,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-04,Montana,state,30,fips_code,deaths_total,16
 2020-05-04,Nebraska,state,31,fips_code,cases_total,6123
 2020-05-04,Nebraska,state,31,fips_code,deaths_total,78
-2020-05-04,Nevada,state,32,fips_code,cases_total,5654
+2020-05-04,Nevada,state,32,fips_code,cases_total,5627
 2020-05-04,Nevada,state,32,fips_code,deaths_total,266
 2020-05-04,New Hampshire,state,33,fips_code,cases_total,2588
 2020-05-04,New Hampshire,state,33,fips_code,deaths_total,86
@@ -1817,7 +1927,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-05-03,Montana,state,30,fips_code,deaths_total,16
 2020-05-03,Nebraska,state,31,fips_code,cases_total,5686
 2020-05-03,Nebraska,state,31,fips_code,deaths_total,77
-2020-05-03,Nevada,state,32,fips_code,cases_total,5497
+2020-05-03,Nevada,state,32,fips_code,cases_total,5473
 2020-05-03,Nevada,state,32,fips_code,deaths_total,262
 2020-05-03,New Hampshire,state,33,fips_code,cases_total,2518
 2020-05-03,New Hampshire,state,33,fips_code,deaths_total,86
@@ -2885,7 +2995,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-23,Guam,state,66,fips_code,deaths_total,6
 2020-04-23,Hawaii,state,15,fips_code,cases_total,590
 2020-04-23,Hawaii,state,15,fips_code,deaths_total,12
-2020-04-23,Idaho,state,16,fips_code,cases_total,1721
+2020-04-23,Idaho,state,16,fips_code,cases_total,1836
 2020-04-23,Idaho,state,16,fips_code,deaths_total,54
 2020-04-23,Illinois,state,17,fips_code,cases_total,36935
 2020-04-23,Illinois,state,17,fips_code,deaths_total,1696
@@ -2995,7 +3105,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-22,Guam,state,66,fips_code,deaths_total,6
 2020-04-22,Hawaii,state,15,fips_code,cases_total,586
 2020-04-22,Hawaii,state,15,fips_code,deaths_total,12
-2020-04-22,Idaho,state,16,fips_code,cases_total,1688
+2020-04-22,Idaho,state,16,fips_code,cases_total,1802
 2020-04-22,Idaho,state,16,fips_code,deaths_total,54
 2020-04-22,Illinois,state,17,fips_code,cases_total,35108
 2020-04-22,Illinois,state,17,fips_code,deaths_total,1577
@@ -3003,7 +3113,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-22,Indiana,state,18,fips_code,deaths_total,661
 2020-04-22,Iowa,state,19,fips_code,cases_total,3764
 2020-04-22,Iowa,state,19,fips_code,deaths_total,90
-2020-04-22,Kansas,state,20,fips_code,cases_total,2291
+2020-04-22,Kansas,state,20,fips_code,cases_total,2290
 2020-04-22,Kansas,state,20,fips_code,deaths_total,111
 2020-04-22,Kentucky,state,21,fips_code,cases_total,3373
 2020-04-22,Kentucky,state,21,fips_code,deaths_total,185
@@ -3105,7 +3215,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-21,Guam,state,66,fips_code,deaths_total,6
 2020-04-21,Hawaii,state,15,fips_code,cases_total,580
 2020-04-21,Hawaii,state,15,fips_code,deaths_total,12
-2020-04-21,Idaho,state,16,fips_code,cases_total,1659
+2020-04-21,Idaho,state,16,fips_code,cases_total,1766
 2020-04-21,Idaho,state,16,fips_code,deaths_total,51
 2020-04-21,Illinois,state,17,fips_code,cases_total,33059
 2020-04-21,Illinois,state,17,fips_code,deaths_total,1479
@@ -3113,7 +3223,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-21,Indiana,state,18,fips_code,deaths_total,630
 2020-04-21,Iowa,state,19,fips_code,cases_total,3641
 2020-04-21,Iowa,state,19,fips_code,deaths_total,83
-2020-04-21,Kansas,state,20,fips_code,cases_total,2114
+2020-04-21,Kansas,state,20,fips_code,cases_total,2113
 2020-04-21,Kansas,state,20,fips_code,deaths_total,107
 2020-04-21,Kentucky,state,21,fips_code,cases_total,3193
 2020-04-21,Kentucky,state,21,fips_code,deaths_total,172
@@ -3215,7 +3325,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-20,Guam,state,66,fips_code,deaths_total,6
 2020-04-20,Hawaii,state,15,fips_code,cases_total,578
 2020-04-20,Hawaii,state,15,fips_code,deaths_total,10
-2020-04-20,Idaho,state,16,fips_code,cases_total,1638
+2020-04-20,Idaho,state,16,fips_code,cases_total,1736
 2020-04-20,Idaho,state,16,fips_code,deaths_total,48
 2020-04-20,Illinois,state,17,fips_code,cases_total,31508
 2020-04-20,Illinois,state,17,fips_code,deaths_total,1359
@@ -3223,7 +3333,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-20,Indiana,state,18,fips_code,deaths_total,569
 2020-04-20,Iowa,state,19,fips_code,cases_total,3175
 2020-04-20,Iowa,state,19,fips_code,deaths_total,79
-2020-04-20,Kansas,state,20,fips_code,cases_total,2030
+2020-04-20,Kansas,state,20,fips_code,cases_total,2029
 2020-04-20,Kansas,state,20,fips_code,deaths_total,101
 2020-04-20,Kentucky,state,21,fips_code,cases_total,3050
 2020-04-20,Kentucky,state,21,fips_code,deaths_total,155
@@ -3325,7 +3435,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-19,Guam,state,66,fips_code,deaths_total,6
 2020-04-19,Hawaii,state,15,fips_code,cases_total,574
 2020-04-19,Hawaii,state,15,fips_code,deaths_total,10
-2020-04-19,Idaho,state,16,fips_code,cases_total,1581
+2020-04-19,Idaho,state,16,fips_code,cases_total,1672
 2020-04-19,Idaho,state,16,fips_code,deaths_total,45
 2020-04-19,Illinois,state,17,fips_code,cases_total,30357
 2020-04-19,Illinois,state,17,fips_code,deaths_total,1302
@@ -3333,7 +3443,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-19,Indiana,state,18,fips_code,deaths_total,562
 2020-04-19,Iowa,state,19,fips_code,cases_total,2915
 2020-04-19,Iowa,state,19,fips_code,deaths_total,75
-2020-04-19,Kansas,state,20,fips_code,cases_total,1897
+2020-04-19,Kansas,state,20,fips_code,cases_total,1896
 2020-04-19,Kansas,state,20,fips_code,deaths_total,94
 2020-04-19,Kentucky,state,21,fips_code,cases_total,2960
 2020-04-19,Kentucky,state,21,fips_code,deaths_total,149
@@ -3435,7 +3545,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-18,Guam,state,66,fips_code,deaths_total,6
 2020-04-18,Hawaii,state,15,fips_code,cases_total,568
 2020-04-18,Hawaii,state,15,fips_code,deaths_total,9
-2020-04-18,Idaho,state,16,fips_code,cases_total,1577
+2020-04-18,Idaho,state,16,fips_code,cases_total,1668
 2020-04-18,Idaho,state,16,fips_code,deaths_total,44
 2020-04-18,Illinois,state,17,fips_code,cases_total,29160
 2020-04-18,Illinois,state,17,fips_code,deaths_total,1272
@@ -3443,7 +3553,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-18,Indiana,state,18,fips_code,deaths_total,545
 2020-04-18,Iowa,state,19,fips_code,cases_total,2513
 2020-04-18,Iowa,state,19,fips_code,deaths_total,74
-2020-04-18,Kansas,state,20,fips_code,cases_total,1819
+2020-04-18,Kansas,state,20,fips_code,cases_total,1818
 2020-04-18,Kansas,state,20,fips_code,deaths_total,86
 2020-04-18,Kentucky,state,21,fips_code,cases_total,2707
 2020-04-18,Kentucky,state,21,fips_code,deaths_total,145
@@ -3545,7 +3655,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-17,Guam,state,66,fips_code,deaths_total,6
 2020-04-17,Hawaii,state,15,fips_code,cases_total,547
 2020-04-17,Hawaii,state,15,fips_code,deaths_total,9
-2020-04-17,Idaho,state,16,fips_code,cases_total,1566
+2020-04-17,Idaho,state,16,fips_code,cases_total,1655
 2020-04-17,Idaho,state,16,fips_code,deaths_total,43
 2020-04-17,Illinois,state,17,fips_code,cases_total,27575
 2020-04-17,Illinois,state,17,fips_code,deaths_total,1142
@@ -3655,7 +3765,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-16,Guam,state,66,fips_code,deaths_total,6
 2020-04-16,Hawaii,state,15,fips_code,cases_total,535
 2020-04-16,Hawaii,state,15,fips_code,deaths_total,9
-2020-04-16,Idaho,state,16,fips_code,cases_total,1528
+2020-04-16,Idaho,state,16,fips_code,cases_total,1609
 2020-04-16,Idaho,state,16,fips_code,deaths_total,41
 2020-04-16,Illinois,state,17,fips_code,cases_total,25734
 2020-04-16,Illinois,state,17,fips_code,deaths_total,1081
@@ -3765,7 +3875,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-15,Guam,state,66,fips_code,deaths_total,6
 2020-04-15,Hawaii,state,15,fips_code,cases_total,524
 2020-04-15,Hawaii,state,15,fips_code,deaths_total,9
-2020-04-15,Idaho,state,16,fips_code,cases_total,1507
+2020-04-15,Idaho,state,16,fips_code,cases_total,1587
 2020-04-15,Idaho,state,16,fips_code,deaths_total,41
 2020-04-15,Illinois,state,17,fips_code,cases_total,24593
 2020-04-15,Illinois,state,17,fips_code,deaths_total,958
@@ -3875,7 +3985,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-14,Guam,state,66,fips_code,deaths_total,6
 2020-04-14,Hawaii,state,15,fips_code,cases_total,511
 2020-04-14,Hawaii,state,15,fips_code,deaths_total,9
-2020-04-14,Idaho,state,16,fips_code,cases_total,1464
+2020-04-14,Idaho,state,16,fips_code,cases_total,1538
 2020-04-14,Idaho,state,16,fips_code,deaths_total,39
 2020-04-14,Illinois,state,17,fips_code,cases_total,23247
 2020-04-14,Illinois,state,17,fips_code,deaths_total,878
@@ -3985,7 +4095,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-13,Guam,state,66,fips_code,deaths_total,6
 2020-04-13,Hawaii,state,15,fips_code,cases_total,502
 2020-04-13,Hawaii,state,15,fips_code,deaths_total,9
-2020-04-13,Idaho,state,16,fips_code,cases_total,1453
+2020-04-13,Idaho,state,16,fips_code,cases_total,1499
 2020-04-13,Idaho,state,16,fips_code,deaths_total,33
 2020-04-13,Illinois,state,17,fips_code,cases_total,22025
 2020-04-13,Illinois,state,17,fips_code,deaths_total,800
@@ -4095,7 +4205,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-12,Guam,state,66,fips_code,deaths_total,5
 2020-04-12,Hawaii,state,15,fips_code,cases_total,497
 2020-04-12,Hawaii,state,15,fips_code,deaths_total,9
-2020-04-12,Idaho,state,16,fips_code,cases_total,1425
+2020-04-12,Idaho,state,16,fips_code,cases_total,1457
 2020-04-12,Idaho,state,16,fips_code,deaths_total,27
 2020-04-12,Illinois,state,17,fips_code,cases_total,20852
 2020-04-12,Illinois,state,17,fips_code,deaths_total,727
@@ -4205,7 +4315,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-11,Guam,state,66,fips_code,deaths_total,5
 2020-04-11,Hawaii,state,15,fips_code,cases_total,484
 2020-04-11,Hawaii,state,15,fips_code,deaths_total,8
-2020-04-11,Idaho,state,16,fips_code,cases_total,1407
+2020-04-11,Idaho,state,16,fips_code,cases_total,1438
 2020-04-11,Idaho,state,16,fips_code,deaths_total,27
 2020-04-11,Illinois,state,17,fips_code,cases_total,19180
 2020-04-11,Illinois,state,17,fips_code,deaths_total,682
@@ -4315,7 +4425,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-10,Guam,state,66,fips_code,deaths_total,4
 2020-04-10,Hawaii,state,15,fips_code,cases_total,463
 2020-04-10,Hawaii,state,15,fips_code,deaths_total,8
-2020-04-10,Idaho,state,16,fips_code,cases_total,1397
+2020-04-10,Idaho,state,16,fips_code,cases_total,1425
 2020-04-10,Idaho,state,16,fips_code,deaths_total,25
 2020-04-10,Illinois,state,17,fips_code,cases_total,17887
 2020-04-10,Illinois,state,17,fips_code,deaths_total,607
@@ -4425,7 +4535,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-09,Guam,state,66,fips_code,deaths_total,4
 2020-04-09,Hawaii,state,15,fips_code,cases_total,440
 2020-04-09,Hawaii,state,15,fips_code,deaths_total,6
-2020-04-09,Idaho,state,16,fips_code,cases_total,1353
+2020-04-09,Idaho,state,16,fips_code,cases_total,1366
 2020-04-09,Idaho,state,16,fips_code,deaths_total,24
 2020-04-09,Illinois,state,17,fips_code,cases_total,16422
 2020-04-09,Illinois,state,17,fips_code,deaths_total,534
@@ -4763,7 +4873,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-06,Indiana,state,18,fips_code,deaths_total,141
 2020-04-06,Iowa,state,19,fips_code,cases_total,946
 2020-04-06,Iowa,state,19,fips_code,deaths_total,25
-2020-04-06,Kansas,state,20,fips_code,cases_total,853
+2020-04-06,Kansas,state,20,fips_code,cases_total,854
 2020-04-06,Kansas,state,20,fips_code,deaths_total,25
 2020-04-06,Kentucky,state,21,fips_code,cases_total,1057
 2020-04-06,Kentucky,state,21,fips_code,deaths_total,52
@@ -4873,7 +4983,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-05,Indiana,state,18,fips_code,deaths_total,127
 2020-04-05,Iowa,state,19,fips_code,cases_total,868
 2020-04-05,Iowa,state,19,fips_code,deaths_total,22
-2020-04-05,Kansas,state,20,fips_code,cases_total,763
+2020-04-05,Kansas,state,20,fips_code,cases_total,767
 2020-04-05,Kansas,state,20,fips_code,deaths_total,23
 2020-04-05,Kentucky,state,21,fips_code,cases_total,1048
 2020-04-05,Kentucky,state,21,fips_code,deaths_total,44
@@ -4983,7 +5093,7 @@ date,location,location_type,location_code,location_code_type,data_type,value
 2020-04-04,Indiana,state,18,fips_code,deaths_total,116
 2020-04-04,Iowa,state,19,fips_code,cases_total,786
 2020-04-04,Iowa,state,19,fips_code,deaths_total,11
-2020-04-04,Kansas,state,20,fips_code,cases_total,701
+2020-04-04,Kansas,state,20,fips_code,cases_total,702
 2020-04-04,Kansas,state,20,fips_code,deaths_total,21
 2020-04-04,Kentucky,state,21,fips_code,cases_total,909
 2020-04-04,Kentucky,state,21,fips_code,deaths_total,40
