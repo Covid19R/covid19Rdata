@@ -32,6 +32,7 @@ jobs:
           if [[ "$(git status --porcelain)" != "" ]]; then
               git config --global user.name 'aedobbyn'
               git config --global user.email 'amanda.e.dobbyn@gmail.com'
-              git commit -am "Auto-update"
+              git add data-raw/*
+              git commit -m "Auto-update" 
               git push
           fi
