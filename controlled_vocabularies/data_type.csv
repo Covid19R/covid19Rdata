@@ -13,5 +13,9 @@ vent_current, number of hospitalized patients requiring ventilation as of the cu
 driving_req_rel_volume, relative volume of driving direction requests from a platform such as Apple Maps
 walking_req_rel_volume, relative volume of walking direction requests from a platform such as Apple Maps
 transit_req_rel_volume, relative volume of transit direction requests from a platform such as Apple Maps
-
-
+retail_and_recreation_perc_ch, percent change in visits to retail and recreation within a given area from a geotracking source such as Google
+grocery_and_pharmacy_perc_ch, percent change in visits to groceries and pharmacies within a given area from a geotracking source such as Google
+parks_perc_ch, percent change in visits to parks within a given area from a geotracking source such as Google
+transit_stations_perc_ch, percent change in visits to transit stations within a given area from a geotracking source such as Google
+workplaces_perc_ch, percent change in visits to places of work within a given area from a geotracking source such as Google
+residential_perc_ch, percent change in visits to residental locations within a given area from a geotracking source such as Google
