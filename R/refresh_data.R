@@ -92,7 +92,9 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
   # write the dataset if there is no error
   # and return that everything worked. Otherwise
   # return the error
-  readr::write_csv(dat, glue::glue("data-raw/{data_set_name}.csv"))
+  #readr::write_csv(dat, glue::glue("data-raw/{data_set_name}.csv"))
+  base::saveRDS(dat, glue::glue("data-raw/{data_set_name}.rds"))
+  
 
  
 
