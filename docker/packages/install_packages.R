@@ -13,6 +13,10 @@ pkg_list <- c("dplyr",
               "snakecase",
               "stringr",
               "tibble",
+              "rmarkdown",
+              "shiny",
+              "tidyr",
+              "testthat",
               "usethis")
 
 install.packages(pkgs = pkg_list, repos = "https://cran.rstudio.com/")
