@@ -1,6 +1,6 @@
 ### Package Development Environment
 
-The docker folder has two sub-folders each with docker build:
+The docker folder has two sub-folders each with the docker builds:
 
 * `packages` - a docker build with R4.0.0 and the package dependencies
 * `rstudio` - a docker with RStudio and the packages dependencies for development environment
