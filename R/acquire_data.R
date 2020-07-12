@@ -12,10 +12,10 @@
 #' acquire_data
 #' }
 acquire_data <- function(verbose = TRUE) {
-  
+  errors <- NULL
   current_time <- gsub(pattern = "-|:| ", replacement = "_", Sys.time() %>%
-    as.character() )
-    
+                         as.character() )
+  
   # Load the list of packages queried
   packages <- utils::read.csv("https://raw.githubusercontent.com/Covid19R/covid19Rdata/master/data-raw/packages.csv",
                               stringsAsFactors = FALSE)
@@ -48,8 +48,7 @@ acquire_data <- function(verbose = TRUE) {
         error = .x[1],
         timestamp = lubridate::now()
       )
-    ) %>%
-      dplyr::bind_rows(errors, .)
+    )
     
     # eleminate from data info
     data_info <- data_info[-which(errors_in_getinfo > 0)]
@@ -112,11 +111,11 @@ acquire_data <- function(verbose = TRUE) {
   past_data_info <- utils::read.csv("data-raw/covid19R_data_info.csv")
   
   if (sum(errors_in_getinfo) > 0) {
-    bad_pkg <- names(errors_in_getinfo)
+    bad_pkg <- names(errors_in_getinfo[which(errors_in_getinfo == 1)])
     
     old_info <- past_data_info %>%
       dplyr::filter(package_name %in% bad_pkg) %>%
-      dplyr::filter(refresh_status = "Failed")
+      dplyr::filter(refresh_status == "Failed")
     
     data_info <- data_info %>%
       dplyr::bind_rows(old_info)
