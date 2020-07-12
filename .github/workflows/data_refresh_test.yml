@@ -6,7 +6,7 @@ on: [push, pull_request]
 jobs:
   build:
     name: Data refresh 
-    runs-on: macOS-latest 
+    runs-on: ubuntu-18.04 
     container: 
      image: rkrispin/covid19rdata:dev
     steps:
