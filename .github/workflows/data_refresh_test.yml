@@ -7,7 +7,7 @@ jobs:
   build:
     name: Data refresh 
     runs-on: macOS-latest 
-    container: rkrispin/covid19rdata:dev
+    container: rocker/verse
     steps:
       - name: checkout_repo
         uses: actions/checkout@v2
