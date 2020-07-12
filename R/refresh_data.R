@@ -4,15 +4,13 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
   package_name <- one_dataset$package_name
   
   if (verbose) {
-    message(
-      glue::glue("\nRefreshing {data_set_name}.\n")
-    )
+    cat("Refreshing ", data_set_name, ". \n", sep = "")
   }
 
-  current_time <- lubridate::now()
+  current_time <- Sys.time()
 
   # build the call
-  run <- glue::glue("{package_name}::refresh_{data_set_name}()")
+  run <- sprintf("%s::refresh_%s()", package_name, data_set_name)
 
   suppressMessages(
     dat <- try(eval(parse(text = run)))
@@ -37,7 +35,7 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
       missing_col_names %>%
       stringr::str_c(collapse = "\n")
 
-    packages <- readr::read_csv("data-raw/packages.csv", col_types = "cc")
+    packages <- utils::read.csv("data-raw/packages.csv", stringsAsFactors = FALSE)
 
     username <- packages %>%
       dplyr::filter(
@@ -53,14 +51,15 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
 
     # Create GitHub issue
     gh::gh(
-      glue::glue("POST /repos/{username}/{package_name}/issues"),
+      sprintf("POST /repos/%s/%s/issues", username, package_name),
       username = sample(issue_creator_usernames, 1),
       title = "Change in source data: some column names missing",
       body = glue::glue("The following names were missing in the `{current_time}` refresh of `{one_dataset$package_name}`:\n\n```\n{missing}\n```"),
+      body = sprintf("The following names were missing in the `%s` refresh of `%s`:\n\n```\n%s}\n```", current_time, one_dataset$package_name, missing),
       .token = token
     )
 
-    error <- glue::glue("Missing cols: {missing_col_names %>% stringr::str_c(collapse = ', ')}")
+    error <- sprintf("Missing cols: %s", missing_col_names %>% stringr::str_c(collapse = ', '))
   }
 
   if (sum(class(dat) == "try-error") > 0) {
@@ -80,9 +79,9 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
         error = error
       )
 
-    readr::write_csv(
+    utils::write.csv(
       out,
-      glue::glue("./logs/error_log_{current_time}.csv"),
+      sprintf("./logs/error_log_%s.csv", current_time),
       append = TRUE
     )
 
@@ -93,7 +92,7 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
   # and return that everything worked. Otherwise
   # return the error
   #readr::write_csv(dat, glue::glue("data-raw/{data_set_name}.csv"))
-  base::saveRDS(dat, glue::glue("data-raw/{data_set_name}.rds"))
+  base::saveRDS(dat, sprintf("data-raw/%s.rds",data_set_name))
   
 
  
@@ -103,7 +102,7 @@ refresh_data <- function(one_dataset, verbose = TRUE) {
     data_set_name = data_set_name,
     refresh_status = "Passed",
     last_data_update = max(dat$date),
-    last_refresh_update = lubridate::now(),
+    last_refresh_update = Sys.time(),
     error = NA
   )
 }

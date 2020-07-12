@@ -13,10 +13,9 @@
 #' }
 acquire_data <- function(verbose = TRUE) {
   
-  current_time <- lubridate::now() %>%
-    as.character() %>%
-    snakecase::to_snake_case()
-  
+  current_time <- gsub(pattern = "-|:| ", replacement = "_", Sys.time() %>%
+    as.character() )
+    
   # Load the list of packages queried
   packages <- utils::read.csv("https://raw.githubusercontent.com/Covid19R/covid19Rdata/master/data-raw/packages.csv",
                               stringsAsFactors = FALSE)
@@ -24,6 +23,7 @@ acquire_data <- function(verbose = TRUE) {
   
   if(verbose){
     cat(paste("Refreshing packages:", packages$package, collapse = "\n"))
+    cat("\n")
   }
   
   
@@ -73,7 +73,8 @@ acquire_data <- function(verbose = TRUE) {
     dplyr::left_join(
       refresh_status %>%
         dplyr::filter(refresh_status == "Passed") %>%
-        dplyr::select(data_set_name, refresh_status, last_refresh_update)
+        dplyr::select(data_set_name, refresh_status, last_refresh_update),
+      by = "data_set_name"
     )
   
   # If refresh fails, file an issue/email the package author if it was not already flagged
@@ -102,7 +103,7 @@ acquire_data <- function(verbose = TRUE) {
     )
   } else {
     if (verbose) {
-      message("Successfully refreshed all packages.")
+      cat("Successfully refreshed all packages.\n")
     }
   }
   
