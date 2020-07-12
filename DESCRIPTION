@@ -21,6 +21,7 @@ License: MIT + file LICENSE
 Imports:
     dplyr,
     devtools,
+    fs,
     gh,
     glue,
     here,
