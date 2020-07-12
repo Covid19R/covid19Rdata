@@ -10,7 +10,7 @@ install_depend <- function(verbose = TRUE){
   args <-
     utils::read.csv("https://raw.githubusercontent.com/Covid19R/covid19Rdata/master/data-raw/packages.csv", stringsAsFactors = FALSE) %>%
     dplyr::mutate(
-      arg = glue::glue("{username}/{package}")
+      arg = sprintf("%s/%s", username, package)
     ) %>%
     dplyr::pull(arg)
   for (a in args) {
