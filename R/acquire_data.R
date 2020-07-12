@@ -96,9 +96,9 @@ acquire_data <- function(verbose = TRUE) {
       )
     }
     
-    readr::write_csv(
+    utils::write.csv(
       errors,
-      glue::glue("./logs/error_log_{current_time}.csv"),
+      sprintf("./logs/error_log_%s.csv", current_time),
       append = TRUE
     )
   } else {

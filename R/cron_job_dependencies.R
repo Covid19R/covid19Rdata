@@ -8,7 +8,7 @@ install_depend <- function(verbose = TRUE){
     message("Installing the supporting packages")
   }
   args <-
-    readr::read_csv("https://raw.githubusercontent.com/Covid19R/covid19Rdata/master/data-raw/packages.csv", col_types = "cc") %>%
+    utils::read.csv("https://raw.githubusercontent.com/Covid19R/covid19Rdata/master/data-raw/packages.csv", stringsAsFactors = FALSE) %>%
     dplyr::mutate(
       arg = glue::glue("{username}/{package}")
     ) %>%
