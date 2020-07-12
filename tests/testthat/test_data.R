@@ -9,9 +9,9 @@ test_that(desc = "Test the columns names", {
 
 test_that(desc = "Test the packages list", {
   
-packages <- readr::read_csv(
+packages <- utils::read.csv(
   "https://raw.githubusercontent.com/Covid19R/covid19Rdata/master/data-raw/packages.csv",
-  col_types = "cc"
+  stringsAsFactors = FALSE
 )
 expect_equal(nrow(packages) == 7, TRUE)
 expect_equal(ncol(packages) == 2, TRUE)
