@@ -3,7 +3,7 @@
 #' Uses \code{/data-raw/packages.csv} CSV to try the package's \code{get_info} function as well as its \code{refresh} function to get the most up to date data.
 #'
 #' @param verbose Should messages be logged?
-#'
+#' @importFrom magrittr `%>%`
 #' @return New data in the \code{data} dir.
 #' @export
 #'
@@ -13,8 +13,7 @@
 #' }
 acquire_data <- function(verbose = TRUE) {
   errors <- NULL
-  current_time <- gsub(pattern = "-|:| ", replacement = "_", Sys.time() %>%
-                         as.character() )
+  current_time <- gsub(pattern = "-|:| ", replacement = "_", as.character(Sys.time()))
   
   # Load the list of packages queried
   packages <- utils::read.csv("https://raw.githubusercontent.com/Covid19R/covid19Rdata/master/data-raw/packages.csv",
