@@ -1,0 +1,31 @@
+name: Data Refresh
+
+on:
+  schedule:
+    - cron:  '0 */8 * * *'
+jobs:
+  build:
+    name: Data refresh 
+    runs-on: macOS-latest 
+    container: rkrispin/covid19rdata:dev
+    steps:
+      - name: checkout_repo
+        uses: actions/checkout@v2
+        with:
+          repository: ${{ github.repository }}
+          ref: 'rami-dev'
+          token: ${{ github.token }}
+          clean: 'true'
+          fetch-depth: '1'
+      - name: Install Github packages
+        run: Rscript -e "devtools::load_all(); acquire_data()"
+      - name: Push updates 
+        if: success()
+        run: |
+          if [[ "$(git status --porcelain)" != "" ]]; then
+              git config --global user.name 'RamiKrispin'
+              git config --global user.email 'ramkrisp@umich.edu'
+              git add data-raw/*
+              git commit -m "Auto-update" 
+              git push
+          fi
