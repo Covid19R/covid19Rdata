@@ -6,6 +6,7 @@ globalVariables(
     "package_name",
     "error",
     "arg",
+    "username",
     "package",
     "."
   ))
