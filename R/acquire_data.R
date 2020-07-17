@@ -30,7 +30,7 @@ acquire_data <- function(verbose = TRUE) {
   # Where get_package_info returns the results of a try()
   data_info <- purrr::map(packages$package, get_package_info, verbose = verbose)
   names(data_info) <- packages$package
-  
+    
   # If any get_info fails, email the package author/file a github issue if it was
   # not already failing.
   # Add a flag of no info and use past info for the new dataset info table.

@@ -1,4 +1,4 @@
-FROM rkrispin/r-base-4:latest
+FROM rkrispin/baser4:dev
 
 LABEL maintainer="Rami Krispin <rami.krispin@gmail.com>"
 
