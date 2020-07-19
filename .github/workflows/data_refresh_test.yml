@@ -4,7 +4,7 @@ on: [push, pull_request]
  # schedule:
  #   - cron:  '0 */8 * * *'
 jobs:
-  data refresh test:
+  data_refresh_test:
     name: Data refresh test
     runs-on: ubuntu-18.04 
     container: 
