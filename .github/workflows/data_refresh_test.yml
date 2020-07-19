@@ -26,12 +26,12 @@ jobs:
         if: success()
         run: |
           if [ -n "$(git status --porcelain)" ]; then
-              print 'Updates available'
+              echo 'Updates available'
               git config --global user.name 'RamiKrispin'
               git config --global user.email 'ramkrisp@umich.edu'
               git add data-raw/*
               git commit -m 'Auto-update' 
               git push
           else
-              print 'Nothing to commit';
+              echo 'Nothing to commit';
           fi
