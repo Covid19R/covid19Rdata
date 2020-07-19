@@ -19,7 +19,9 @@ jobs:
           clean: 'true'
           fetch-depth: '1'
       - name: Install Github packages
-        run: Rscript -e "devtools::load_all(); acquire_data()"
+        run: |
+          git config --global http.sslVerify false
+          Rscript -e "devtools::load_all(); acquire_data()"
       - name: Push updates 
         if: success()
         run: |
