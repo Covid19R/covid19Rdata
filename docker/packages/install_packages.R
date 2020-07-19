@@ -17,7 +17,7 @@ pkg_list <- c("dplyr",
               "shiny",
               "tidyr",
               "testthat",
-              "usethis")
+              "usethis") 
 
 install.packages(pkgs = pkg_list, repos = "https://cran.rstudio.com/")
 
