@@ -1,8 +1,8 @@
 name: Data Refresh
 
-on: 
-  schedule:
-    - cron:  '0 */4 * * *'
+on: [push]
+  #schedule:
+   # - cron:  '0 */4 * * *'
 jobs:
   data_refresh_test:
     name: Data refresh test
@@ -32,4 +32,6 @@ jobs:
               git add data-raw/*
               git commit -m "Auto-update" 
               git push
+          else
+              print("Nothing to commit")
           fi
