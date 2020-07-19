@@ -5,7 +5,7 @@ on:
     - cron:  '0 */8 * * *'
 jobs:
   build:
-    name: Data refresh 
+    name: Data refresh master
     runs-on: macOS-latest 
     steps:
       - name: checkout_repo
@@ -30,8 +30,8 @@ jobs:
         if: success()
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
-              git config --global user.name 'aedobbyn'
-              git config --global user.email 'amanda.e.dobbyn@gmail.com'
+              git config --global user.name 'RamiKrispin'
+              git config --global user.email 'ramkrisp@umich.edu'
               git add data-raw/*
               git commit -m "Auto-update" 
               git push
