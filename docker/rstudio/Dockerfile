@@ -93,6 +93,9 @@ COPY add_shiny.sh /etc/cont-init.d/add
 COPY disable_auth_rserver.conf /etc/rstudio/disable_auth_rserver.conf
 COPY pam-helper.sh /usr/lib/rstudio-server/bin/pam-helper
 
+RUN sudo apt-get install ca-certificates -y
+
+
 EXPOSE 8787
 
 ## automatically link a shared volume for kitematic users
