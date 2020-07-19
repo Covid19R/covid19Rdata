@@ -116,8 +116,10 @@ acquire_data <- function(verbose = TRUE) {
       dplyr::filter(package_name %in% bad_pkg) %>%
       dplyr::filter(refresh_status == "Failed")
     
-    data_info <- data_info %>%
-      dplyr::bind_rows(old_info)
+    if(nrow(old_info) > 0 ){
+      data_info <- data_info %>%
+        dplyr::bind_rows(old_info)
+    }
   }
   
   # Write out data_info table
